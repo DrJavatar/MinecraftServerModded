@@ -1,0 +1,13 @@
+{
+  "type": "tconstruct:casting_basin",
+  "cast": {
+    "tag": "forge:glass"
+  },
+  "cast_consumed": true,
+  "fluid": {
+    "name": "integrateddynamics:liquid_chorus",
+    "amount": 500
+  },
+  "result": "integratedterminals:chorus_glass",
+  "cooling_time": 55
+}

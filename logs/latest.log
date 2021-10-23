@@ -1,0 +1,866 @@
+[22Oct2021 20:44:09.231] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--gameDir, ., --launchTarget, fmlserver, --fml.forgeVersion, 36.1.33, --fml.mcpVersion, 20210115.111550, --fml.mcVersion, 1.16.5, --fml.forgeGroup, net.minecraftforge, nogui]
+[22Oct2021 20:44:09.234] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 8.0.9+86+master.3cf110c starting: java version 1.8.0_301 by Oracle Corporation
+[22Oct2021 20:44:09.731] [main/INFO] [net.minecraftforge.fml.loading.FixSSL/CORE]: Added Lets Encrypt root certificates as additional trust
+[22Oct2021 20:44:09.762] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.2 Source=file:/F:/1.16.5%20Server/libraries/org/spongepowered/mixin/0.8.2/mixin-0.8.2.jar Service=ModLauncher Env=SERVER
+[22Oct2021 20:44:10.394] [main/INFO] [STDERR/]: [org.antlr.v4.runtime.ConsoleErrorListener:syntaxError:38]: line 13:0 token recognition error at: '`'
+[22Oct2021 20:44:10.845] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [de.maxhenkel.miningdimension.mixin.MixinConnector]
+[22Oct2021 20:44:10.848] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [com.qouteall.hiding_in_the_bushes.MyMixinConnector]
+[22Oct2021 20:44:10.874] [main/INFO] [Portal/]: Invoking Mixin Connector
+[22Oct2021 20:44:10.876] [main/ERROR] [mixin/]: Mixin config imm_ptl_mixins.json does not specify "minVersion" property
+[22Oct2021 20:44:10.878] [main/ERROR] [mixin/]: Mixin config imm_ptl_mixins_forge.json does not specify "minVersion" property
+[22Oct2021 20:44:10.881] [main/ERROR] [mixin/]: Mixin config imm_ptl_peripheral_mixins.json does not specify "minVersion" property
+[22Oct2021 20:44:10.883] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'fmlserver' with arguments [--gameDir, ., nogui]
+[22Oct2021 20:44:10.892] [main/WARN] [mixin/]: Reference map 'globaldataandresourcepacks.refmap.json' for globaldataandresourcepacks.mixins.json could not be read. If this is a development environment you can ignore this message
+[22Oct2021 20:44:10.982] [main/FATAL] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/settings/KeyBinding for invalid dist DEDICATED_SERVER
+[22Oct2021 20:44:10.982] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/settings/KeyBinding (java.lang.RuntimeException: Attempted to load class net/minecraft/client/settings/KeyBinding for invalid dist DEDICATED_SERVER)
+[22Oct2021 20:44:10.983] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.settings.KeyBinding was not found ftbultimine-common.mixins.json:KeyAccessor
+[22Oct2021 20:44:11.237] [main/WARN] [mixin/]: @Mixin target net/minecraft/world/server/ChunkManager$EntityTracker is public in imm_ptl_mixins.json:common.entity_sync.MixinEntityTracker and should be specified in value
+[22Oct2021 20:44:17.954] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `mining_dimension` for name `teleporter`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[22Oct2021 20:44:18.628] [modloading-worker-5/INFO] [com.resourcefulbees.resourcefulbees.ResourcefulBees/]: Setting up config paths...
+[22Oct2021 20:44:18.706] [modloading-worker-7/INFO] [STDOUT/]: [yalter.mousetweaks.Logger:Log:6]: [Mouse Tweaks] Disabled because not running on the client.
+[22Oct2021 20:44:19.428] [modloading-worker-5/INFO] [com.resourcefulbees.resourcefulbees.ResourcefulBees/]: Bee Registry Initialized...
+[22Oct2021 20:44:19.472] [modloading-worker-5/INFO] [com.resourcefulbees.resourcefulbees.ResourcefulBees/]: Trait Registry Initialized...
+[22Oct2021 20:44:19.481] [modloading-worker-5/INFO] [com.resourcefulbees.resourcefulbees.ResourcefulBees/]: Bee Registration Enabled...
+[22Oct2021 20:44:19.605] [modloading-worker-5/INFO] [com.resourcefulbees.resourcefulbees.ResourcefulBees/]: Building Biome Dictionary...
+[22Oct2021 20:44:20.010] [modloading-worker-5/INFO] [com.resourcefulbees.resourcefulbees.ResourcefulBees/]: Registering Custom Bees...
+[22Oct2021 20:44:20.107] [modloading-worker-4/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 36.1.33, for MC 1.16.5 with MCP 20210115.111550
+[22Oct2021 20:44:20.167] [modloading-worker-4/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v36.1.33 Initialized
+[22Oct2021 20:44:20.411] [modloading-worker-5/INFO] [com.resourcefulbees.resourcefulbees.ResourcefulBees/]: Registering Custom Honeys..
+[22Oct2021 20:44:20.573] [modloading-worker-6/INFO] [itank/]: Registering content for itank
+[22Oct2021 20:44:20.713] [modloading-worker-6/INFO] [itank/]: [BLOCK]: tank has been registered by Bibliotheca for ITank
+[22Oct2021 20:44:20.715] [modloading-worker-6/INFO] [itank/]: [BLOCK]: tank_white has been registered by Bibliotheca for ITank
+[22Oct2021 20:44:20.764] [modloading-worker-6/INFO] [itank/]: [BLOCK]: tank_orange has been registered by Bibliotheca for ITank
+[22Oct2021 20:44:20.764] [modloading-worker-6/INFO] [itank/]: [BLOCK]: tank_magenta has been registered by Bibliotheca for ITank
+[22Oct2021 20:44:20.796] [modloading-worker-6/INFO] [itank/]: [BLOCK]: tank_light_blue has been registered by Bibliotheca for ITank
+[22Oct2021 20:44:20.904] [modloading-worker-6/INFO] [itank/]: [BLOCK]: tank_yellow has been registered by Bibliotheca for ITank
+[22Oct2021 20:44:20.915] [modloading-worker-6/INFO] [itank/]: [BLOCK]: tank_lime has been registered by Bibliotheca for ITank
+[22Oct2021 20:44:21.034] [modloading-worker-6/INFO] [itank/]: [BLOCK]: tank_pink has been registered by Bibliotheca for ITank
+[22Oct2021 20:44:21.119] [modloading-worker-6/INFO] [itank/]: [BLOCK]: tank_light_gray has been registered by Bibliotheca for ITank
+[22Oct2021 20:44:21.123] [modloading-worker-6/INFO] [itank/]: [BLOCK]: tank_cyan has been registered by Bibliotheca for ITank
+[22Oct2021 20:44:21.180] [modloading-worker-6/INFO] [itank/]: [BLOCK]: tank_purple has been registered by Bibliotheca for ITank
+[22Oct2021 20:44:21.217] [modloading-worker-6/INFO] [itank/]: [BLOCK]: tank_blue has been registered by Bibliotheca for ITank
+[22Oct2021 20:44:21.327] [modloading-worker-6/INFO] [itank/]: [BLOCK]: tank_brown has been registered by Bibliotheca for ITank
+[22Oct2021 20:44:21.435] [modloading-worker-6/INFO] [itank/]: [BLOCK]: tank_green has been registered by Bibliotheca for ITank
+[22Oct2021 20:44:21.487] [modloading-worker-4/INFO] [twilightforest/]: Skipped compatibility for mod immersiveengineering.
+[22Oct2021 20:44:21.548] [modloading-worker-6/INFO] [itank/]: [BLOCK]: tank_red has been registered by Bibliotheca for ITank
+[22Oct2021 20:44:21.577] [modloading-worker-6/INFO] [itank/]: [BLOCK]: tank_black has been registered by Bibliotheca for ITank
+[22Oct2021 20:44:21.621] [modloading-worker-6/INFO] [itank/]: [ITEM]: tank has been registered by Bibliotheca for ITank
+[22Oct2021 20:44:21.733] [modloading-worker-6/INFO] [itank/]: [ITEM]: tank_white has been registered by Bibliotheca for ITank
+[22Oct2021 20:44:21.754] [modloading-worker-6/INFO] [itank/]: [ITEM]: tank_orange has been registered by Bibliotheca for ITank
+[22Oct2021 20:44:21.943] [modloading-worker-6/INFO] [itank/]: [ITEM]: tank_magenta has been registered by Bibliotheca for ITank
+[22Oct2021 20:44:22.030] [modloading-worker-6/INFO] [itank/]: [ITEM]: tank_light_blue has been registered by Bibliotheca for ITank
+[22Oct2021 20:44:22.072] [modloading-worker-6/INFO] [itank/]: [ITEM]: tank_yellow has been registered by Bibliotheca for ITank
+[22Oct2021 20:44:22.086] [modloading-worker-6/INFO] [itank/]: [ITEM]: tank_lime has been registered by Bibliotheca for ITank
+[22Oct2021 20:44:22.094] [modloading-worker-6/INFO] [itank/]: [ITEM]: tank_pink has been registered by Bibliotheca for ITank
+[22Oct2021 20:44:22.110] [modloading-worker-6/INFO] [itank/]: [ITEM]: tank_light_gray has been registered by Bibliotheca for ITank
+[22Oct2021 20:44:22.122] [modloading-worker-6/INFO] [itank/]: [ITEM]: tank_cyan has been registered by Bibliotheca for ITank
+[22Oct2021 20:44:22.129] [modloading-worker-6/INFO] [itank/]: [ITEM]: tank_purple has been registered by Bibliotheca for ITank
+[22Oct2021 20:44:22.146] [modloading-worker-6/INFO] [itank/]: [ITEM]: tank_blue has been registered by Bibliotheca for ITank
+[22Oct2021 20:44:22.155] [modloading-worker-6/INFO] [itank/]: [ITEM]: tank_brown has been registered by Bibliotheca for ITank
+[22Oct2021 20:44:22.167] [modloading-worker-6/INFO] [itank/]: [ITEM]: tank_green has been registered by Bibliotheca for ITank
+[22Oct2021 20:44:22.177] [modloading-worker-6/INFO] [itank/]: [ITEM]: tank_red has been registered by Bibliotheca for ITank
+[22Oct2021 20:44:22.182] [modloading-worker-6/INFO] [itank/]: [ITEM]: tank_black has been registered by Bibliotheca for ITank
+[22Oct2021 20:44:22.194] [modloading-worker-6/INFO] [itank/]: [TILE-ENTITY]: tank has been registered by Bibliotheca for ITank
+[22Oct2021 20:44:26.689] [main/INFO] [com.haoict.tiab.Tiab/]: HELLO from Register Block
+[22Oct2021 20:44:26.697] [main/INFO] [Botany Pots/]: Registered 34 Block entries in 0.71ms.
+[22Oct2021 20:44:27.379] [main/INFO] [Botany Pots/]: Registered 34 Item entries in 0.73ms.
+[22Oct2021 20:44:27.550] [main/INFO] [Bookshelf/]: Registered 11 GlobalLootModifierSerializer entries in 0.27ms.
+[22Oct2021 20:44:27.640] [main/INFO] [Botany Pots/]: Registered 1 TileEntityType entries in 0.08ms.
+[22Oct2021 20:44:28.304] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for excompressum:angry_chicken, use EntityAttributeCreationEvent instead.
+[22Oct2021 20:44:28.409] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `integrateddynamics` for name `menril_resin`, expected `integratedterminalscompat`. This could be a intended override, but in most cases indicates a broken mod.
+[22Oct2021 20:44:28.493] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `integrateddynamics` for name `menril_resin_flowing`, expected `integratedterminalscompat`. This could be a intended override, but in most cases indicates a broken mod.
+[22Oct2021 20:44:28.520] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `integrateddynamics` for name `liquid_chorus`, expected `integratedterminalscompat`. This could be a intended override, but in most cases indicates a broken mod.
+[22Oct2021 20:44:28.524] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `integrateddynamics` for name `liquid_chorus_flowing`, expected `integratedterminalscompat`. This could be a intended override, but in most cases indicates a broken mod.
+[22Oct2021 20:44:28.525] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `milk`, expected `forge`. This could be a intended override, but in most cases indicates a broken mod.
+[22Oct2021 20:44:28.526] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `flowing_milk`, expected `forge`. This could be a intended override, but in most cases indicates a broken mod.
+[22Oct2021 20:44:28.851] [main/INFO] [Bookshelf/]: Registered 22 ingredient serializers.
+[22Oct2021 20:44:28.856] [main/INFO] [Bookshelf/]: Registered 5 IRecipeSerializer entries in 0.15ms.
+[22Oct2021 20:44:28.857] [main/INFO] [Botany Pots/]: Registered 3 IRecipeSerializer entries in 0.07ms.
+[22Oct2021 20:44:29.723] [modloading-worker-7/INFO] [integrateddynamicscompat/]: Registered packet handler.
+[22Oct2021 20:44:29.808] [modloading-worker-5/WARN] [libVulpes/]: Overwritting Multiblock mapping of "O"
+[22Oct2021 20:44:29.745] [modloading-worker-6/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 clay_ball = 1 clay
+[22Oct2021 20:44:29.744] [modloading-worker-1/INFO] [Bookshelf/]: Registering 3 command argument types.
+[22Oct2021 20:44:29.731] [modloading-worker-3/INFO] [com.haoict.tiab.Tiab/]: HELLO FROM PREINIT
+[22Oct2021 20:44:29.729] [modloading-worker-2/INFO] [integrateddynamics/]: Registered packet handler.
+[22Oct2021 20:44:30.068] [modloading-worker-3/INFO] [com.haoict.tiab.Tiab/]: DIRT BLOCK >> minecraft:dirt
+[22Oct2021 20:44:30.038] [modloading-worker-1/INFO] [Bookshelf/]: Registering 13 loot conditions.
+[22Oct2021 20:44:29.989] [modloading-worker-6/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 snowball = 1 snow_block
+[22Oct2021 20:44:29.984] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cyclopscore] Starting version check at https://raw.githubusercontent.com/CyclopsMC/Versions/master/forge_update/cyclops-core.json
+[22Oct2021 20:44:30.167] [modloading-worker-6/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 glowstone_dust = 1 glowstone
+[22Oct2021 20:44:30.185] [modloading-worker-6/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 brick = 1 bricks
+[22Oct2021 20:44:29.918] [modloading-worker-5/WARN] [libVulpes/]: Overwritting Multiblock mapping of "I"
+[22Oct2021 20:44:29.821] [modloading-worker-0/INFO] [integrateddynamics/]: Registered packet handler.
+[22Oct2021 20:44:30.222] [modloading-worker-5/WARN] [libVulpes/]: Overwritting Multiblock mapping of "P"
+[22Oct2021 20:44:30.191] [modloading-worker-6/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 nether_brick = 1 nether_bricks
+[22Oct2021 20:44:30.229] [modloading-worker-5/WARN] [libVulpes/]: Overwritting Multiblock mapping of "p"
+[22Oct2021 20:44:30.264] [modloading-worker-6/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 9 nether_wart = 1 nether_wart_block
+[22Oct2021 20:44:30.265] [modloading-worker-5/WARN] [libVulpes/]: Overwritting Multiblock mapping of "L"
+[22Oct2021 20:44:30.273] [modloading-worker-6/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 quartz = 1 quartz_block
+[22Oct2021 20:44:30.303] [modloading-worker-5/WARN] [libVulpes/]: Overwritting Multiblock mapping of "l"
+[22Oct2021 20:44:30.309] [modloading-worker-6/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 9 melon_slice = 1 melon
+[22Oct2021 20:44:30.309] [modloading-worker-6/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 sand = 1 sandstone
+[22Oct2021 20:44:30.310] [modloading-worker-6/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 red_sand = 1 red_sandstone
+[22Oct2021 20:44:30.310] [modloading-worker-6/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 clay_ball = 1 clay
+[22Oct2021 20:44:30.311] [modloading-worker-6/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 piece_copper = 1 chunk_copper
+[22Oct2021 20:44:30.311] [modloading-worker-6/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 piece_lead = 1 chunk_lead
+[22Oct2021 20:44:30.311] [modloading-worker-6/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 piece_nickel = 1 chunk_nickel
+[22Oct2021 20:44:30.312] [modloading-worker-6/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 piece_silver = 1 chunk_silver
+[22Oct2021 20:44:30.312] [modloading-worker-6/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 piece_tin = 1 chunk_tin
+[22Oct2021 20:44:30.312] [modloading-worker-6/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 piece_iron = 1 chunk_iron
+[22Oct2021 20:44:30.313] [modloading-worker-6/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 piece_gold = 1 chunk_gold
+[22Oct2021 20:44:30.313] [modloading-worker-6/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 9 sand = 1 compressed_sand
+[22Oct2021 20:44:30.323] [main/INFO] [Portal/]: Immersive Portals Mod Initializing
+[22Oct2021 20:44:30.333] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cyclopscore] Found status: OUTDATED Current: 1.11.7 Target: 1.12.0
+[22Oct2021 20:44:30.335] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [commoncapabilities] Starting version check at https://raw.githubusercontent.com/CyclopsMC/Versions/master/forge_update/common-capabilities.json
+[22Oct2021 20:44:30.362] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [commoncapabilities] Found status: OUTDATED Current: 2.7.0 Target: 2.8.0
+[22Oct2021 20:44:30.366] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mousetweaks] Starting version check at http://play.sourceruns.org/yalter/MouseTweaks/update.json
+[22Oct2021 20:44:30.426] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for thermal:basalz, use EntityAttributeCreationEvent instead.
+[22Oct2021 20:44:30.426] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for thermal:blitz, use EntityAttributeCreationEvent instead.
+[22Oct2021 20:44:30.428] [main/WARN] [net.minecraftforge.common.ForgeHooks/]: Called deprecated GlobalEntityTypeAttributes#put for thermal:blizz, use EntityAttributeCreationEvent instead.
+[22Oct2021 20:44:30.449] [modloading-worker-4/INFO] [com.haoict.tiab.Tiab/]: Hello world from the MDK
+[22Oct2021 20:44:30.455] [modloading-worker-1/INFO] [novamachina.exnihilosequentia.common.compat.top.CompatTOP.GetTheOneProbe/]: [Ex Nihilo: Sequentia]: Enabled support for The One Probe
+[22Oct2021 20:44:30.477] [modloading-worker-4/INFO] [com.haoict.tiab.Tiab/]: Got IMC [Hello world]
+[22Oct2021 20:44:30.486] [modloading-worker-5/INFO] [com.resourcefulbees.resourcefulbees.ResourcefulBees/]: Registering Default Bee Traits...
+[22Oct2021 20:44:30.489] [modloading-worker-5/INFO] [com.resourcefulbees.resourcefulbees.ResourcefulBees/]: Registering Custom Traits...
+[22Oct2021 20:44:31.512] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mousetweaks] Found status: BETA Current: 2.14 Target: null
+[22Oct2021 20:44:31.512] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mining_dimension] Starting version check at https://maxhenkel.de/update/mining_dimension.json
+[22Oct2021 20:44:33.088] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mining_dimension] Found status: OUTDATED Current: 1.16.5-1.0.5 Target: 1.16.5-1.0.6
+[22Oct2021 20:44:33.088] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [integratedterminals] Starting version check at https://raw.githubusercontent.com/CyclopsMC/Versions/master/forge_update/integrated-terminals.json
+[22Oct2021 20:44:33.111] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [integratedterminals] Found status: OUTDATED Current: 1.2.4 Target: 1.2.8
+[22Oct2021 20:44:33.111] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [jeiintegration] Starting version check at https://cdn.snowshock35.com/mods/jei-integration/update.json
+[22Oct2021 20:44:33.338] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [jeiintegration] Found status: BETA Current: 7.0.1.15 Target: null
+[22Oct2021 20:44:33.339] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [integrateddynamics] Starting version check at https://raw.githubusercontent.com/CyclopsMC/Versions/master/forge_update/integrated-dynamics.json
+[22Oct2021 20:44:33.355] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [integrateddynamics] Found status: OUTDATED Current: 1.9.0 Target: 1.10.3
+[22Oct2021 20:44:33.356] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [integratedtunnels] Starting version check at https://raw.githubusercontent.com/CyclopsMC/Versions/master/forge_update/integrated-tunnels.json
+[22Oct2021 20:44:33.379] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [integratedtunnels] Found status: OUTDATED Current: 1.8.4 Target: 1.8.7
+[22Oct2021 20:44:33.380] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [bookshelf] Starting version check at https://updates.blamejared.com/get?n=bookshelf&gv=1.16.5
+[22Oct2021 20:44:33.926] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[22Oct2021 20:44:34.104] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [bookshelf] Found status: BETA_OUTDATED Current: 10.1.11 Target: 10.3.29
+[22Oct2021 20:44:34.104] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [botanypots] Starting version check at https://updates.blamejared.com/get?n=botanypots&gv=1.16.5
+[22Oct2021 20:44:34.173] [main/INFO] [Bookshelf/]: Registering 1 commands.
+[22Oct2021 20:44:34.199] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [cofh, ignite, duration] and [cofh, ignite, targets] with inputs: [0, -123, 123]
+[22Oct2021 20:44:34.212] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [cofh, ignite, targets] and [cofh, ignite, duration] with inputs: [0123]
+[22Oct2021 20:44:34.213] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [cofh, invis, flag] and [cofh, invis, targets] with inputs: [true, false]
+[22Oct2021 20:44:34.215] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [cofh, invuln, flag] and [cofh, invuln, targets] with inputs: [true, false]
+[22Oct2021 20:44:34.225] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[22Oct2021 20:44:34.226] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[22Oct2021 20:44:34.228] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[22Oct2021 20:44:34.229] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[22Oct2021 20:44:34.230] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[22Oct2021 20:44:34.247] [main/INFO] [com.resourcefulbees.resourcefulbees.ResourcefulBees/]: Adding Reload Listener: 'resourcefulbees recipe manager'
+[22Oct2021 20:44:34.250] [main/INFO] [net.minecraft.resources.SimpleReloadableResourceManager/]: Reloading ResourceManager: Default, forge-1.16.5-36.1.33-universal.jar, TConstruct-1.16.5-3.0.4.197.jar, CyclopsCore-1.16.5-1.11.7.jar, ResourcefulBees-1.16.5-0.6.7.2b.jar, theoneprobe-1.16-3.1.4.jar, CommonCapabilities-1.16.5-2.7.0.jar, MouseTweaks-2.14-mc1.16.2.jar, mining_dimension-1.16.5-1.0.5.jar, jei-1.16.5-7.7.1.110.jar, IntegratedTerminals-1.16.5-1.2.4.jar, Desert+Dimension.jar, jeiintegration_1.16.5-7.0.1.15.jar, curios-forge-1.16.5-4.0.5.2.jar, Mantle-1.16.5-1.6.109.jar, Waystones_1.16.5-7.6.2.jar, IntegratedDynamics-1.16.5-1.9.0.jar, StorageDrawers-1.16.3-8.2.2.jar, time-in-a-bottle-1.1.0.jar, IntegratedTunnels-1.16.5-1.8.4.jar, ftb-ultimine-forge-1605.2.2-build.4.jar, globaldataandresourcepacks-1.16.4-1.7.4.jar, integratednbt-1.16.4-1.4.2.jar, Bookshelf-1.16.5-10.1.11.jar, BotanyPots-1.16.5-7.1.23.jar, BotanyTrees-1.16.5-3.0.5.jar, ExCompressum_1.16.5-4.0.4.jar, LibVulpes-1.16.5-1.0.2-25-universal.jar, architectury-1.19.27-forge.jar, ftb-library-forge-1605.3.1-build.48.jar, cloth-config-4.11.26-forge.jar, hyperbox-1.16.5-1.0.0.2.jar, immersive-portals-0.16-mc1.16.5-forge.jar, InventoryEssentials_1.16.5-2.3.2.jar, cofh_core-1.16.4-1.2.1.jar, thermal_foundation-1.16.4-1.2.0.jar, thermal_expansion-1.16.4-1.2.0.jar, Bibliotheca-1.16.5-1.6.2.jar, ITank-1.16.5-1.5.1.jar, exnihilosequentia-1.16-20210628182320.jar, integrated_proxy-1.16-1.0.18.jar, CobbleForDays-1.3.1.jar, FastLeafDecay-v25.jar, twilightforest-1.16.5-4.0.546-universal.jar, ironchest-1.16.5-11.2.13.jar, IntegratedCrafting-1.16.5-1.0.16.jar, botany_trees, exnihilosequentia, javatar, tcon, resourcefulbees:internals
+[22Oct2021 20:44:34.270] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [botanypots] Found status: BETA_OUTDATED Current: 7.1.23 Target: 7.1.27
+[22Oct2021 20:44:34.271] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [botanytrees] Starting version check at https://updates.blamejared.com/get?n=botanytrees&gv=1.16.5
+[22Oct2021 20:44:34.449] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [botanytrees] Found status: BETA_OUTDATED Current: 3.0.5 Target: 3.0.6
+[22Oct2021 20:44:34.457] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[22Oct2021 20:44:34.829] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 36.1.33 Target: 36.2.0
+[22Oct2021 20:44:34.829] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cofh_core] Starting version check at https://raw.github.com/cofh/version/master/cofh_core/update.json
+[22Oct2021 20:44:35.069] [Worker-Main-12/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe thermal:crops/green_bean
+com.google.gson.JsonSyntaxException: Unknown item 'thermal:green_bean_seeds'
+	at net.minecraft.item.crafting.Ingredient.lambda$valueFromJson$11(Ingredient.java:216) ~[?:?]
+	at java.util.Optional.orElseThrow(Unknown Source) ~[?:1.8.0_301]
+	at net.minecraft.item.crafting.Ingredient.func_199803_a(Ingredient.java:215) ~[?:?]
+	at net.minecraftforge.common.crafting.VanillaIngredientSerializer.parse(VanillaIngredientSerializer.java:41) ~[forge:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.getIngredient(CraftingHelper.java:155) ~[forge:?]
+	at net.minecraft.item.crafting.Ingredient.func_199802_a(Ingredient.java:189) ~[?:?]
+	at net.darkhax.botanypots.crop.CropSerializer.read(CropSerializer.java:30) ~[botanypots:7.1.23]
+	at net.darkhax.botanypots.crop.CropSerializer.func_199425_a_(CropSerializer.java:23) ~[botanypots:7.1.23]
+	at net.minecraft.item.crafting.RecipeManager.func_215377_a(RecipeManager.java:141) ~[?:?]
+	at net.minecraft.item.crafting.RecipeManager.func_212853_a_(RecipeManager.java:61) ~[?:?]
+	at net.minecraft.item.crafting.RecipeManager.func_212853_a_(RecipeManager.java:38) ~[?:?]
+	at net.minecraft.client.resources.ReloadListener.func_215269_a(SourceFile:13) ~[?:?]
+	at java.util.concurrent.CompletableFuture.uniAccept(Unknown Source) ~[?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(Unknown Source) ~[?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture$Completion.run(Unknown Source) ~[?:1.8.0_301]
+	at net.minecraft.resources.AsyncReloader.func_219557_a(SourceFile:71) ~[?:?]
+	at net.minecraft.resources.AsyncReloader.func_219560_a(SourceFile:70) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture.uniAccept(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture.postComplete(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.ForkJoinTask.doExec(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.ForkJoinPool.runWorker(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source) [?:1.8.0_301]
+[22Oct2021 20:44:35.112] [Worker-Main-12/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe thermal:crops/rice
+com.google.gson.JsonSyntaxException: Unknown item 'thermal:rice_seeds'
+	at net.minecraft.item.crafting.Ingredient.lambda$valueFromJson$11(Ingredient.java:216) ~[?:?]
+	at java.util.Optional.orElseThrow(Unknown Source) ~[?:1.8.0_301]
+	at net.minecraft.item.crafting.Ingredient.func_199803_a(Ingredient.java:215) ~[?:?]
+	at net.minecraftforge.common.crafting.VanillaIngredientSerializer.parse(VanillaIngredientSerializer.java:41) ~[forge:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.getIngredient(CraftingHelper.java:155) ~[forge:?]
+	at net.minecraft.item.crafting.Ingredient.func_199802_a(Ingredient.java:189) ~[?:?]
+	at net.darkhax.botanypots.crop.CropSerializer.read(CropSerializer.java:30) ~[botanypots:7.1.23]
+	at net.darkhax.botanypots.crop.CropSerializer.func_199425_a_(CropSerializer.java:23) ~[botanypots:7.1.23]
+	at net.minecraft.item.crafting.RecipeManager.func_215377_a(RecipeManager.java:141) ~[?:?]
+	at net.minecraft.item.crafting.RecipeManager.func_212853_a_(RecipeManager.java:61) ~[?:?]
+	at net.minecraft.item.crafting.RecipeManager.func_212853_a_(RecipeManager.java:38) ~[?:?]
+	at net.minecraft.client.resources.ReloadListener.func_215269_a(SourceFile:13) ~[?:?]
+	at java.util.concurrent.CompletableFuture.uniAccept(Unknown Source) ~[?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(Unknown Source) ~[?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture$Completion.run(Unknown Source) ~[?:1.8.0_301]
+	at net.minecraft.resources.AsyncReloader.func_219557_a(SourceFile:71) ~[?:?]
+	at net.minecraft.resources.AsyncReloader.func_219560_a(SourceFile:70) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture.uniAccept(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture.postComplete(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.ForkJoinTask.doExec(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.ForkJoinPool.runWorker(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source) [?:1.8.0_301]
+[22Oct2021 20:44:35.120] [Worker-Main-12/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe thermal:crops/radish
+com.google.gson.JsonSyntaxException: Unknown item 'thermal:radish_seeds'
+	at net.minecraft.item.crafting.Ingredient.lambda$valueFromJson$11(Ingredient.java:216) ~[?:?]
+	at java.util.Optional.orElseThrow(Unknown Source) ~[?:1.8.0_301]
+	at net.minecraft.item.crafting.Ingredient.func_199803_a(Ingredient.java:215) ~[?:?]
+	at net.minecraftforge.common.crafting.VanillaIngredientSerializer.parse(VanillaIngredientSerializer.java:41) ~[forge:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.getIngredient(CraftingHelper.java:155) ~[forge:?]
+	at net.minecraft.item.crafting.Ingredient.func_199802_a(Ingredient.java:189) ~[?:?]
+	at net.darkhax.botanypots.crop.CropSerializer.read(CropSerializer.java:30) ~[botanypots:7.1.23]
+	at net.darkhax.botanypots.crop.CropSerializer.func_199425_a_(CropSerializer.java:23) ~[botanypots:7.1.23]
+	at net.minecraft.item.crafting.RecipeManager.func_215377_a(RecipeManager.java:141) ~[?:?]
+	at net.minecraft.item.crafting.RecipeManager.func_212853_a_(RecipeManager.java:61) ~[?:?]
+	at net.minecraft.item.crafting.RecipeManager.func_212853_a_(RecipeManager.java:38) ~[?:?]
+	at net.minecraft.client.resources.ReloadListener.func_215269_a(SourceFile:13) ~[?:?]
+	at java.util.concurrent.CompletableFuture.uniAccept(Unknown Source) ~[?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(Unknown Source) ~[?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture$Completion.run(Unknown Source) ~[?:1.8.0_301]
+	at net.minecraft.resources.AsyncReloader.func_219557_a(SourceFile:71) ~[?:?]
+	at net.minecraft.resources.AsyncReloader.func_219560_a(SourceFile:70) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture.uniAccept(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture.postComplete(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.ForkJoinTask.doExec(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.ForkJoinPool.runWorker(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source) [?:1.8.0_301]
+[22Oct2021 20:44:35.146] [Worker-Main-12/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe thermal:crops/coffee
+com.google.gson.JsonSyntaxException: Unknown item 'thermal:coffee_seeds'
+	at net.minecraft.item.crafting.Ingredient.lambda$valueFromJson$11(Ingredient.java:216) ~[?:?]
+	at java.util.Optional.orElseThrow(Unknown Source) ~[?:1.8.0_301]
+	at net.minecraft.item.crafting.Ingredient.func_199803_a(Ingredient.java:215) ~[?:?]
+	at net.minecraftforge.common.crafting.VanillaIngredientSerializer.parse(VanillaIngredientSerializer.java:41) ~[forge:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.getIngredient(CraftingHelper.java:155) ~[forge:?]
+	at net.minecraft.item.crafting.Ingredient.func_199802_a(Ingredient.java:189) ~[?:?]
+	at net.darkhax.botanypots.crop.CropSerializer.read(CropSerializer.java:30) ~[botanypots:7.1.23]
+	at net.darkhax.botanypots.crop.CropSerializer.func_199425_a_(CropSerializer.java:23) ~[botanypots:7.1.23]
+	at net.minecraft.item.crafting.RecipeManager.func_215377_a(RecipeManager.java:141) ~[?:?]
+	at net.minecraft.item.crafting.RecipeManager.func_212853_a_(RecipeManager.java:61) ~[?:?]
+	at net.minecraft.item.crafting.RecipeManager.func_212853_a_(RecipeManager.java:38) ~[?:?]
+	at net.minecraft.client.resources.ReloadListener.func_215269_a(SourceFile:13) ~[?:?]
+	at java.util.concurrent.CompletableFuture.uniAccept(Unknown Source) ~[?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(Unknown Source) ~[?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture$Completion.run(Unknown Source) ~[?:1.8.0_301]
+	at net.minecraft.resources.AsyncReloader.func_219557_a(SourceFile:71) ~[?:?]
+	at net.minecraft.resources.AsyncReloader.func_219560_a(SourceFile:70) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture.uniAccept(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture.postComplete(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.ForkJoinTask.doExec(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.ForkJoinPool.runWorker(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source) [?:1.8.0_301]
+[22Oct2021 20:44:35.148] [Worker-Main-12/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe thermal:crops/corn
+com.google.gson.JsonSyntaxException: Unknown item 'thermal:corn_seeds'
+	at net.minecraft.item.crafting.Ingredient.lambda$valueFromJson$11(Ingredient.java:216) ~[?:?]
+	at java.util.Optional.orElseThrow(Unknown Source) ~[?:1.8.0_301]
+	at net.minecraft.item.crafting.Ingredient.func_199803_a(Ingredient.java:215) ~[?:?]
+	at net.minecraftforge.common.crafting.VanillaIngredientSerializer.parse(VanillaIngredientSerializer.java:41) ~[forge:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.getIngredient(CraftingHelper.java:155) ~[forge:?]
+	at net.minecraft.item.crafting.Ingredient.func_199802_a(Ingredient.java:189) ~[?:?]
+	at net.darkhax.botanypots.crop.CropSerializer.read(CropSerializer.java:30) ~[botanypots:7.1.23]
+	at net.darkhax.botanypots.crop.CropSerializer.func_199425_a_(CropSerializer.java:23) ~[botanypots:7.1.23]
+	at net.minecraft.item.crafting.RecipeManager.func_215377_a(RecipeManager.java:141) ~[?:?]
+	at net.minecraft.item.crafting.RecipeManager.func_212853_a_(RecipeManager.java:61) ~[?:?]
+	at net.minecraft.item.crafting.RecipeManager.func_212853_a_(RecipeManager.java:38) ~[?:?]
+	at net.minecraft.client.resources.ReloadListener.func_215269_a(SourceFile:13) ~[?:?]
+	at java.util.concurrent.CompletableFuture.uniAccept(Unknown Source) ~[?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(Unknown Source) ~[?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture$Completion.run(Unknown Source) ~[?:1.8.0_301]
+	at net.minecraft.resources.AsyncReloader.func_219557_a(SourceFile:71) ~[?:?]
+	at net.minecraft.resources.AsyncReloader.func_219560_a(SourceFile:70) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture.uniAccept(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture.postComplete(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.ForkJoinTask.doExec(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.ForkJoinPool.runWorker(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source) [?:1.8.0_301]
+[22Oct2021 20:44:35.152] [Worker-Main-12/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe thermal:crops/spinach
+com.google.gson.JsonSyntaxException: Unknown item 'thermal:spinach_seeds'
+	at net.minecraft.item.crafting.Ingredient.lambda$valueFromJson$11(Ingredient.java:216) ~[?:?]
+	at java.util.Optional.orElseThrow(Unknown Source) ~[?:1.8.0_301]
+	at net.minecraft.item.crafting.Ingredient.func_199803_a(Ingredient.java:215) ~[?:?]
+	at net.minecraftforge.common.crafting.VanillaIngredientSerializer.parse(VanillaIngredientSerializer.java:41) ~[forge:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.getIngredient(CraftingHelper.java:155) ~[forge:?]
+	at net.minecraft.item.crafting.Ingredient.func_199802_a(Ingredient.java:189) ~[?:?]
+	at net.darkhax.botanypots.crop.CropSerializer.read(CropSerializer.java:30) ~[botanypots:7.1.23]
+	at net.darkhax.botanypots.crop.CropSerializer.func_199425_a_(CropSerializer.java:23) ~[botanypots:7.1.23]
+	at net.minecraft.item.crafting.RecipeManager.func_215377_a(RecipeManager.java:141) ~[?:?]
+	at net.minecraft.item.crafting.RecipeManager.func_212853_a_(RecipeManager.java:61) ~[?:?]
+	at net.minecraft.item.crafting.RecipeManager.func_212853_a_(RecipeManager.java:38) ~[?:?]
+	at net.minecraft.client.resources.ReloadListener.func_215269_a(SourceFile:13) ~[?:?]
+	at java.util.concurrent.CompletableFuture.uniAccept(Unknown Source) ~[?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(Unknown Source) ~[?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture$Completion.run(Unknown Source) ~[?:1.8.0_301]
+	at net.minecraft.resources.AsyncReloader.func_219557_a(SourceFile:71) ~[?:?]
+	at net.minecraft.resources.AsyncReloader.func_219560_a(SourceFile:70) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture.uniAccept(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture.postComplete(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.ForkJoinTask.doExec(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.ForkJoinPool.runWorker(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source) [?:1.8.0_301]
+[22Oct2021 20:44:35.165] [Worker-Main-12/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe thermal:crops/sadiroot
+com.google.gson.JsonSyntaxException: Unknown item 'thermal:sadiroot_seeds'
+	at net.minecraft.item.crafting.Ingredient.lambda$valueFromJson$11(Ingredient.java:216) ~[?:?]
+	at java.util.Optional.orElseThrow(Unknown Source) ~[?:1.8.0_301]
+	at net.minecraft.item.crafting.Ingredient.func_199803_a(Ingredient.java:215) ~[?:?]
+	at net.minecraftforge.common.crafting.VanillaIngredientSerializer.parse(VanillaIngredientSerializer.java:41) ~[forge:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.getIngredient(CraftingHelper.java:155) ~[forge:?]
+	at net.minecraft.item.crafting.Ingredient.func_199802_a(Ingredient.java:189) ~[?:?]
+	at net.darkhax.botanypots.crop.CropSerializer.read(CropSerializer.java:30) ~[botanypots:7.1.23]
+	at net.darkhax.botanypots.crop.CropSerializer.func_199425_a_(CropSerializer.java:23) ~[botanypots:7.1.23]
+	at net.minecraft.item.crafting.RecipeManager.func_215377_a(RecipeManager.java:141) ~[?:?]
+	at net.minecraft.item.crafting.RecipeManager.func_212853_a_(RecipeManager.java:61) ~[?:?]
+	at net.minecraft.item.crafting.RecipeManager.func_212853_a_(RecipeManager.java:38) ~[?:?]
+	at net.minecraft.client.resources.ReloadListener.func_215269_a(SourceFile:13) ~[?:?]
+	at java.util.concurrent.CompletableFuture.uniAccept(Unknown Source) ~[?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(Unknown Source) ~[?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture$Completion.run(Unknown Source) ~[?:1.8.0_301]
+	at net.minecraft.resources.AsyncReloader.func_219557_a(SourceFile:71) ~[?:?]
+	at net.minecraft.resources.AsyncReloader.func_219560_a(SourceFile:70) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture.uniAccept(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture.postComplete(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.ForkJoinTask.doExec(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.ForkJoinPool.runWorker(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source) [?:1.8.0_301]
+[22Oct2021 20:44:35.176] [Worker-Main-12/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe thermal:crops/eggplant
+com.google.gson.JsonSyntaxException: Unknown item 'thermal:eggplant_seeds'
+	at net.minecraft.item.crafting.Ingredient.lambda$valueFromJson$11(Ingredient.java:216) ~[?:?]
+	at java.util.Optional.orElseThrow(Unknown Source) ~[?:1.8.0_301]
+	at net.minecraft.item.crafting.Ingredient.func_199803_a(Ingredient.java:215) ~[?:?]
+	at net.minecraftforge.common.crafting.VanillaIngredientSerializer.parse(VanillaIngredientSerializer.java:41) ~[forge:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.getIngredient(CraftingHelper.java:155) ~[forge:?]
+	at net.minecraft.item.crafting.Ingredient.func_199802_a(Ingredient.java:189) ~[?:?]
+	at net.darkhax.botanypots.crop.CropSerializer.read(CropSerializer.java:30) ~[botanypots:7.1.23]
+	at net.darkhax.botanypots.crop.CropSerializer.func_199425_a_(CropSerializer.java:23) ~[botanypots:7.1.23]
+	at net.minecraft.item.crafting.RecipeManager.func_215377_a(RecipeManager.java:141) ~[?:?]
+	at net.minecraft.item.crafting.RecipeManager.func_212853_a_(RecipeManager.java:61) ~[?:?]
+	at net.minecraft.item.crafting.RecipeManager.func_212853_a_(RecipeManager.java:38) ~[?:?]
+	at net.minecraft.client.resources.ReloadListener.func_215269_a(SourceFile:13) ~[?:?]
+	at java.util.concurrent.CompletableFuture.uniAccept(Unknown Source) ~[?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(Unknown Source) ~[?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture$Completion.run(Unknown Source) ~[?:1.8.0_301]
+	at net.minecraft.resources.AsyncReloader.func_219557_a(SourceFile:71) ~[?:?]
+	at net.minecraft.resources.AsyncReloader.func_219560_a(SourceFile:70) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture.uniAccept(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture.postComplete(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.ForkJoinTask.doExec(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.ForkJoinPool.runWorker(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source) [?:1.8.0_301]
+[22Oct2021 20:44:35.194] [Worker-Main-12/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe thermal:crops/bell_pepper
+com.google.gson.JsonSyntaxException: Unknown item 'thermal:bell_pepper_seeds'
+	at net.minecraft.item.crafting.Ingredient.lambda$valueFromJson$11(Ingredient.java:216) ~[?:?]
+	at java.util.Optional.orElseThrow(Unknown Source) ~[?:1.8.0_301]
+	at net.minecraft.item.crafting.Ingredient.func_199803_a(Ingredient.java:215) ~[?:?]
+	at net.minecraftforge.common.crafting.VanillaIngredientSerializer.parse(VanillaIngredientSerializer.java:41) ~[forge:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.getIngredient(CraftingHelper.java:155) ~[forge:?]
+	at net.minecraft.item.crafting.Ingredient.func_199802_a(Ingredient.java:189) ~[?:?]
+	at net.darkhax.botanypots.crop.CropSerializer.read(CropSerializer.java:30) ~[botanypots:7.1.23]
+	at net.darkhax.botanypots.crop.CropSerializer.func_199425_a_(CropSerializer.java:23) ~[botanypots:7.1.23]
+	at net.minecraft.item.crafting.RecipeManager.func_215377_a(RecipeManager.java:141) ~[?:?]
+	at net.minecraft.item.crafting.RecipeManager.func_212853_a_(RecipeManager.java:61) ~[?:?]
+	at net.minecraft.item.crafting.RecipeManager.func_212853_a_(RecipeManager.java:38) ~[?:?]
+	at net.minecraft.client.resources.ReloadListener.func_215269_a(SourceFile:13) ~[?:?]
+	at java.util.concurrent.CompletableFuture.uniAccept(Unknown Source) ~[?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(Unknown Source) ~[?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture$Completion.run(Unknown Source) ~[?:1.8.0_301]
+	at net.minecraft.resources.AsyncReloader.func_219557_a(SourceFile:71) ~[?:?]
+	at net.minecraft.resources.AsyncReloader.func_219560_a(SourceFile:70) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture.uniAccept(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture.postComplete(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.ForkJoinTask.doExec(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.ForkJoinPool.runWorker(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source) [?:1.8.0_301]
+[22Oct2021 20:44:35.196] [Worker-Main-12/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe thermal:crops/strawberry
+com.google.gson.JsonSyntaxException: Unknown item 'thermal:strawberry_seeds'
+	at net.minecraft.item.crafting.Ingredient.lambda$valueFromJson$11(Ingredient.java:216) ~[?:?]
+	at java.util.Optional.orElseThrow(Unknown Source) ~[?:1.8.0_301]
+	at net.minecraft.item.crafting.Ingredient.func_199803_a(Ingredient.java:215) ~[?:?]
+	at net.minecraftforge.common.crafting.VanillaIngredientSerializer.parse(VanillaIngredientSerializer.java:41) ~[forge:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.getIngredient(CraftingHelper.java:155) ~[forge:?]
+	at net.minecraft.item.crafting.Ingredient.func_199802_a(Ingredient.java:189) ~[?:?]
+	at net.darkhax.botanypots.crop.CropSerializer.read(CropSerializer.java:30) ~[botanypots:7.1.23]
+	at net.darkhax.botanypots.crop.CropSerializer.func_199425_a_(CropSerializer.java:23) ~[botanypots:7.1.23]
+	at net.minecraft.item.crafting.RecipeManager.func_215377_a(RecipeManager.java:141) ~[?:?]
+	at net.minecraft.item.crafting.RecipeManager.func_212853_a_(RecipeManager.java:61) ~[?:?]
+	at net.minecraft.item.crafting.RecipeManager.func_212853_a_(RecipeManager.java:38) ~[?:?]
+	at net.minecraft.client.resources.ReloadListener.func_215269_a(SourceFile:13) ~[?:?]
+	at java.util.concurrent.CompletableFuture.uniAccept(Unknown Source) ~[?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(Unknown Source) ~[?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture$Completion.run(Unknown Source) ~[?:1.8.0_301]
+	at net.minecraft.resources.AsyncReloader.func_219557_a(SourceFile:71) ~[?:?]
+	at net.minecraft.resources.AsyncReloader.func_219560_a(SourceFile:70) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture.uniAccept(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture.postComplete(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.ForkJoinTask.doExec(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.ForkJoinPool.runWorker(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source) [?:1.8.0_301]
+[22Oct2021 20:44:35.197] [Worker-Main-12/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe thermal:crops/peanut
+com.google.gson.JsonSyntaxException: Unknown item 'thermal:peanut_seeds'
+	at net.minecraft.item.crafting.Ingredient.lambda$valueFromJson$11(Ingredient.java:216) ~[?:?]
+	at java.util.Optional.orElseThrow(Unknown Source) ~[?:1.8.0_301]
+	at net.minecraft.item.crafting.Ingredient.func_199803_a(Ingredient.java:215) ~[?:?]
+	at net.minecraftforge.common.crafting.VanillaIngredientSerializer.parse(VanillaIngredientSerializer.java:41) ~[forge:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.getIngredient(CraftingHelper.java:155) ~[forge:?]
+	at net.minecraft.item.crafting.Ingredient.func_199802_a(Ingredient.java:189) ~[?:?]
+	at net.darkhax.botanypots.crop.CropSerializer.read(CropSerializer.java:30) ~[botanypots:7.1.23]
+	at net.darkhax.botanypots.crop.CropSerializer.func_199425_a_(CropSerializer.java:23) ~[botanypots:7.1.23]
+	at net.minecraft.item.crafting.RecipeManager.func_215377_a(RecipeManager.java:141) ~[?:?]
+	at net.minecraft.item.crafting.RecipeManager.func_212853_a_(RecipeManager.java:61) ~[?:?]
+	at net.minecraft.item.crafting.RecipeManager.func_212853_a_(RecipeManager.java:38) ~[?:?]
+	at net.minecraft.client.resources.ReloadListener.func_215269_a(SourceFile:13) ~[?:?]
+	at java.util.concurrent.CompletableFuture.uniAccept(Unknown Source) ~[?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(Unknown Source) ~[?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture$Completion.run(Unknown Source) ~[?:1.8.0_301]
+	at net.minecraft.resources.AsyncReloader.func_219557_a(SourceFile:71) ~[?:?]
+	at net.minecraft.resources.AsyncReloader.func_219560_a(SourceFile:70) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture.uniAccept(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture.postComplete(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.ForkJoinTask.doExec(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.ForkJoinPool.runWorker(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source) [?:1.8.0_301]
+[22Oct2021 20:44:35.206] [Worker-Main-12/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe thermal:crops/frost_melon
+com.google.gson.JsonSyntaxException: Unknown item 'thermal:frost_melon_seeds'
+	at net.minecraft.item.crafting.Ingredient.lambda$valueFromJson$11(Ingredient.java:216) ~[?:?]
+	at java.util.Optional.orElseThrow(Unknown Source) ~[?:1.8.0_301]
+	at net.minecraft.item.crafting.Ingredient.func_199803_a(Ingredient.java:215) ~[?:?]
+	at net.minecraftforge.common.crafting.VanillaIngredientSerializer.parse(VanillaIngredientSerializer.java:41) ~[forge:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.getIngredient(CraftingHelper.java:155) ~[forge:?]
+	at net.minecraft.item.crafting.Ingredient.func_199802_a(Ingredient.java:189) ~[?:?]
+	at net.darkhax.botanypots.crop.CropSerializer.read(CropSerializer.java:30) ~[botanypots:7.1.23]
+	at net.darkhax.botanypots.crop.CropSerializer.func_199425_a_(CropSerializer.java:23) ~[botanypots:7.1.23]
+	at net.minecraft.item.crafting.RecipeManager.func_215377_a(RecipeManager.java:141) ~[?:?]
+	at net.minecraft.item.crafting.RecipeManager.func_212853_a_(RecipeManager.java:61) ~[?:?]
+	at net.minecraft.item.crafting.RecipeManager.func_212853_a_(RecipeManager.java:38) ~[?:?]
+	at net.minecraft.client.resources.ReloadListener.func_215269_a(SourceFile:13) ~[?:?]
+	at java.util.concurrent.CompletableFuture.uniAccept(Unknown Source) ~[?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(Unknown Source) ~[?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture$Completion.run(Unknown Source) ~[?:1.8.0_301]
+	at net.minecraft.resources.AsyncReloader.func_219557_a(SourceFile:71) ~[?:?]
+	at net.minecraft.resources.AsyncReloader.func_219560_a(SourceFile:70) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture.uniAccept(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture.postComplete(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.ForkJoinTask.doExec(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.ForkJoinPool.runWorker(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source) [?:1.8.0_301]
+[22Oct2021 20:44:35.213] [Worker-Main-12/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe thermal:crops/tomato
+com.google.gson.JsonSyntaxException: Unknown item 'thermal:tomato_seeds'
+	at net.minecraft.item.crafting.Ingredient.lambda$valueFromJson$11(Ingredient.java:216) ~[?:?]
+	at java.util.Optional.orElseThrow(Unknown Source) ~[?:1.8.0_301]
+	at net.minecraft.item.crafting.Ingredient.func_199803_a(Ingredient.java:215) ~[?:?]
+	at net.minecraftforge.common.crafting.VanillaIngredientSerializer.parse(VanillaIngredientSerializer.java:41) ~[forge:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.getIngredient(CraftingHelper.java:155) ~[forge:?]
+	at net.minecraft.item.crafting.Ingredient.func_199802_a(Ingredient.java:189) ~[?:?]
+	at net.darkhax.botanypots.crop.CropSerializer.read(CropSerializer.java:30) ~[botanypots:7.1.23]
+	at net.darkhax.botanypots.crop.CropSerializer.func_199425_a_(CropSerializer.java:23) ~[botanypots:7.1.23]
+	at net.minecraft.item.crafting.RecipeManager.func_215377_a(RecipeManager.java:141) ~[?:?]
+	at net.minecraft.item.crafting.RecipeManager.func_212853_a_(RecipeManager.java:61) ~[?:?]
+	at net.minecraft.item.crafting.RecipeManager.func_212853_a_(RecipeManager.java:38) ~[?:?]
+	at net.minecraft.client.resources.ReloadListener.func_215269_a(SourceFile:13) ~[?:?]
+	at java.util.concurrent.CompletableFuture.uniAccept(Unknown Source) ~[?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(Unknown Source) ~[?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture$Completion.run(Unknown Source) ~[?:1.8.0_301]
+	at net.minecraft.resources.AsyncReloader.func_219557_a(SourceFile:71) ~[?:?]
+	at net.minecraft.resources.AsyncReloader.func_219560_a(SourceFile:70) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture.uniAccept(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture.postComplete(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.ForkJoinTask.doExec(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.ForkJoinPool.runWorker(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source) [?:1.8.0_301]
+[22Oct2021 20:44:35.226] [Worker-Main-12/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe thermal:crops/tea
+com.google.gson.JsonSyntaxException: Unknown item 'thermal:tea_seeds'
+	at net.minecraft.item.crafting.Ingredient.lambda$valueFromJson$11(Ingredient.java:216) ~[?:?]
+	at java.util.Optional.orElseThrow(Unknown Source) ~[?:1.8.0_301]
+	at net.minecraft.item.crafting.Ingredient.func_199803_a(Ingredient.java:215) ~[?:?]
+	at net.minecraftforge.common.crafting.VanillaIngredientSerializer.parse(VanillaIngredientSerializer.java:41) ~[forge:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.getIngredient(CraftingHelper.java:155) ~[forge:?]
+	at net.minecraft.item.crafting.Ingredient.func_199802_a(Ingredient.java:189) ~[?:?]
+	at net.darkhax.botanypots.crop.CropSerializer.read(CropSerializer.java:30) ~[botanypots:7.1.23]
+	at net.darkhax.botanypots.crop.CropSerializer.func_199425_a_(CropSerializer.java:23) ~[botanypots:7.1.23]
+	at net.minecraft.item.crafting.RecipeManager.func_215377_a(RecipeManager.java:141) ~[?:?]
+	at net.minecraft.item.crafting.RecipeManager.func_212853_a_(RecipeManager.java:61) ~[?:?]
+	at net.minecraft.item.crafting.RecipeManager.func_212853_a_(RecipeManager.java:38) ~[?:?]
+	at net.minecraft.client.resources.ReloadListener.func_215269_a(SourceFile:13) ~[?:?]
+	at java.util.concurrent.CompletableFuture.uniAccept(Unknown Source) ~[?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(Unknown Source) ~[?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture$Completion.run(Unknown Source) ~[?:1.8.0_301]
+	at net.minecraft.resources.AsyncReloader.func_219557_a(SourceFile:71) ~[?:?]
+	at net.minecraft.resources.AsyncReloader.func_219560_a(SourceFile:70) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture.uniAccept(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture.postComplete(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.ForkJoinTask.doExec(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.ForkJoinPool.runWorker(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source) [?:1.8.0_301]
+[22Oct2021 20:44:35.230] [Worker-Main-12/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe thermal:crops/barley
+com.google.gson.JsonSyntaxException: Unknown item 'thermal:barley_seeds'
+	at net.minecraft.item.crafting.Ingredient.lambda$valueFromJson$11(Ingredient.java:216) ~[?:?]
+	at java.util.Optional.orElseThrow(Unknown Source) ~[?:1.8.0_301]
+	at net.minecraft.item.crafting.Ingredient.func_199803_a(Ingredient.java:215) ~[?:?]
+	at net.minecraftforge.common.crafting.VanillaIngredientSerializer.parse(VanillaIngredientSerializer.java:41) ~[forge:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.getIngredient(CraftingHelper.java:155) ~[forge:?]
+	at net.minecraft.item.crafting.Ingredient.func_199802_a(Ingredient.java:189) ~[?:?]
+	at net.darkhax.botanypots.crop.CropSerializer.read(CropSerializer.java:30) ~[botanypots:7.1.23]
+	at net.darkhax.botanypots.crop.CropSerializer.func_199425_a_(CropSerializer.java:23) ~[botanypots:7.1.23]
+	at net.minecraft.item.crafting.RecipeManager.func_215377_a(RecipeManager.java:141) ~[?:?]
+	at net.minecraft.item.crafting.RecipeManager.func_212853_a_(RecipeManager.java:61) ~[?:?]
+	at net.minecraft.item.crafting.RecipeManager.func_212853_a_(RecipeManager.java:38) ~[?:?]
+	at net.minecraft.client.resources.ReloadListener.func_215269_a(SourceFile:13) ~[?:?]
+	at java.util.concurrent.CompletableFuture.uniAccept(Unknown Source) ~[?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(Unknown Source) ~[?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture$Completion.run(Unknown Source) ~[?:1.8.0_301]
+	at net.minecraft.resources.AsyncReloader.func_219557_a(SourceFile:71) ~[?:?]
+	at net.minecraft.resources.AsyncReloader.func_219560_a(SourceFile:70) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture.uniAccept(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture.postComplete(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.ForkJoinTask.doExec(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.ForkJoinPool.runWorker(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source) [?:1.8.0_301]
+[22Oct2021 20:44:35.243] [Worker-Main-12/ERROR] [net.minecraft.item.crafting.RecipeManager/]: Parsing error loading recipe thermal:crops/onion
+com.google.gson.JsonSyntaxException: Unknown item 'thermal:onion_seeds'
+	at net.minecraft.item.crafting.Ingredient.lambda$valueFromJson$11(Ingredient.java:216) ~[?:?]
+	at java.util.Optional.orElseThrow(Unknown Source) ~[?:1.8.0_301]
+	at net.minecraft.item.crafting.Ingredient.func_199803_a(Ingredient.java:215) ~[?:?]
+	at net.minecraftforge.common.crafting.VanillaIngredientSerializer.parse(VanillaIngredientSerializer.java:41) ~[forge:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.getIngredient(CraftingHelper.java:155) ~[forge:?]
+	at net.minecraft.item.crafting.Ingredient.func_199802_a(Ingredient.java:189) ~[?:?]
+	at net.darkhax.botanypots.crop.CropSerializer.read(CropSerializer.java:30) ~[botanypots:7.1.23]
+	at net.darkhax.botanypots.crop.CropSerializer.func_199425_a_(CropSerializer.java:23) ~[botanypots:7.1.23]
+	at net.minecraft.item.crafting.RecipeManager.func_215377_a(RecipeManager.java:141) ~[?:?]
+	at net.minecraft.item.crafting.RecipeManager.func_212853_a_(RecipeManager.java:61) ~[?:?]
+	at net.minecraft.item.crafting.RecipeManager.func_212853_a_(RecipeManager.java:38) ~[?:?]
+	at net.minecraft.client.resources.ReloadListener.func_215269_a(SourceFile:13) ~[?:?]
+	at java.util.concurrent.CompletableFuture.uniAccept(Unknown Source) ~[?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(Unknown Source) ~[?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture$Completion.run(Unknown Source) ~[?:1.8.0_301]
+	at net.minecraft.resources.AsyncReloader.func_219557_a(SourceFile:71) ~[?:?]
+	at net.minecraft.resources.AsyncReloader.func_219560_a(SourceFile:70) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture.uniAccept(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture.postComplete(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.ForkJoinTask.doExec(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.ForkJoinPool.runWorker(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source) [?:1.8.0_301]
+[22Oct2021 20:44:35.248] [Worker-Main-12/INFO] [net.minecraft.item.crafting.RecipeManager/]: Loaded 64 recipes
+[22Oct2021 20:44:35.257] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cofh_core] Found status: OUTDATED Current: 1.2.1 Target: 1.3.1
+[22Oct2021 20:44:35.257] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [thermal] Starting version check at https://raw.github.com/cofh/version/master/thermal/update.json
+[22Oct2021 20:44:35.573] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [thermal] Found status: OUTDATED Current: 1.2.0 Target: 1.3.2
+[22Oct2021 20:44:35.573] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [exnihilosequentia] Starting version check at https://raw.githubusercontent.com/NovaMachina-Mods/ExNihiloSequentia/1.16/update.json
+[22Oct2021 20:44:35.592] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [exnihilosequentia] Found status: BETA Current: 1.16-20210628182320 Target: null
+[22Oct2021 20:44:35.593] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [twilightforest] Starting version check at https://raw.githubusercontent.com/TeamTwilight/twilightforest/1.16.x/update.json
+[22Oct2021 20:44:35.631] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [twilightforest] Found status: BETA Current: NONE Target: null
+[22Oct2021 20:44:35.631] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [integratedcrafting] Starting version check at https://raw.githubusercontent.com/CyclopsMC/Versions/master/forge_update/integrated-crafting.json
+[22Oct2021 20:44:35.651] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [integratedcrafting] Found status: OUTDATED Current: 1.0.16 Target: 1.0.19
+[22Oct2021 20:44:35.670] [Worker-Main-12/ERROR] [net.minecraft.loot.LootTableManager/]: Couldn't parse loot table excompressum:blocks/mana_sieve
+com.google.gson.JsonSyntaxException: Block Block{excompressum:mana_sieve} has no property ugly
+	at net.minecraft.loot.conditions.BlockStateProperty$Serializer.func_227568_a_(SourceFile:82) ~[?:?]
+	at net.minecraft.advancements.criterion.StatePropertiesPredicate$Matcher.func_227200_a_(SourceFile:53) ~[?:?]
+	at net.minecraft.advancements.criterion.StatePropertiesPredicate.func_227184_a_(SourceFile:170) ~[?:?]
+	at com.google.common.collect.ImmutableList.forEach(ImmutableList.java:408) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at net.minecraft.advancements.criterion.StatePropertiesPredicate.func_227183_a_(SourceFile:170) ~[?:?]
+	at net.minecraft.loot.conditions.BlockStateProperty$Serializer.func_230423_a_(SourceFile:81) ~[?:?]
+	at net.minecraft.loot.conditions.BlockStateProperty$Serializer.func_230423_a_(SourceFile:68) ~[?:?]
+	at net.minecraft.loot.LootTypesManager$Serializer.deserialize(SourceFile:83) ~[?:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:41) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:887) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:952) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:162) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at net.minecraft.util.JSONUtils.func_188179_a(SourceFile:440) ~[?:?]
+	at net.minecraft.util.JSONUtils.func_188177_a(SourceFile:456) ~[?:?]
+	at net.minecraft.loot.LootEntry$Serializer.func_230423_a_(SourceFile:85) ~[?:?]
+	at net.minecraft.loot.LootEntry$Serializer.func_230423_a_(SourceFile:74) ~[?:?]
+	at net.minecraft.loot.LootTypesManager$Serializer.deserialize(SourceFile:83) ~[?:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:41) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:887) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:952) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:162) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at net.minecraft.util.JSONUtils.func_188179_a(SourceFile:440) ~[?:?]
+	at net.minecraft.util.JSONUtils.func_188174_a(SourceFile:448) ~[?:?]
+	at net.minecraft.loot.LootPool$Serializer.deserialize(LootPool.java:183) ~[?:?]
+	at net.minecraft.loot.LootPool$Serializer.deserialize(LootPool.java:180) ~[?:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:41) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:887) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:952) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:162) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at net.minecraft.util.JSONUtils.func_188179_a(SourceFile:440) ~[?:?]
+	at net.minecraft.util.JSONUtils.func_188177_a(SourceFile:456) ~[?:?]
+	at net.minecraft.loot.LootTable$Serializer.deserialize(LootTable.java:252) ~[?:?]
+	at net.minecraft.loot.LootTable$Serializer.deserialize(LootTable.java:249) ~[?:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:887) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:952) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:925) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:880) ~[forge:?]
+	at net.minecraft.loot.LootTableManager.lambda$apply$0(LootTableManager.java:40) ~[?:?]
+	at java.util.HashMap.forEach(Unknown Source) ~[?:1.8.0_301]
+	at net.minecraft.loot.LootTableManager.func_212853_a_(LootTableManager.java:38) ~[?:?]
+	at net.minecraft.loot.LootTableManager.func_212853_a_(LootTableManager.java:16) ~[?:?]
+	at net.minecraft.client.resources.ReloadListener.func_215269_a(SourceFile:13) ~[?:?]
+	at java.util.concurrent.CompletableFuture.uniAccept(Unknown Source) ~[?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(Unknown Source) ~[?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture$Completion.run(Unknown Source) ~[?:1.8.0_301]
+	at net.minecraft.resources.AsyncReloader.func_219557_a(SourceFile:71) ~[?:?]
+	at net.minecraft.resources.AsyncReloader.func_219560_a(SourceFile:70) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(Unknown Source) ~[?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture.uniAccept(Unknown Source) ~[?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(Unknown Source) ~[?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture.postComplete(Unknown Source) ~[?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture.postFire(Unknown Source) ~[?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(Unknown Source) ~[?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture$Completion.run(Unknown Source) ~[?:1.8.0_301]
+	at net.minecraft.resources.AsyncReloader.func_219557_a(SourceFile:71) ~[?:?]
+	at net.minecraft.resources.AsyncReloader.func_219560_a(SourceFile:70) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture.uniAccept(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture.postComplete(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.ForkJoinTask.doExec(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.ForkJoinPool.runWorker(Unknown Source) [?:1.8.0_301]
+	at java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source) [?:1.8.0_301]
+[22Oct2021 20:44:35.782] [Worker-Main-12/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement resourcefulbees:resourcefulbees/fifty_shades_of_bees: Expected item to be an item, was unknown string 'patchouli:guide_book'
+[22Oct2021 20:44:35.799] [Worker-Main-12/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement twilightforest:alt/compat/tconstruct: Unknown item id 'tconstruct:book'
+[22Oct2021 20:44:35.841] [Worker-Main-12/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1726 advancements
+[22Oct2021 20:44:35.843] [Worker-Main-12/INFO] [com.resourcefulbees.resourcefulbees.ResourcefulBees/]: Loading comb recipes for 22 bees...
+[22Oct2021 20:44:35.850] [Worker-Main-12/INFO] [com.resourcefulbees.resourcefulbees.utils.validation.SecondPhaseValidator/]: Validating Honey Effects...
+[22Oct2021 20:44:35.866] [Worker-Main-12/INFO] [slimeknights.tconstruct.library.materials.MaterialManager/]: 25 materials loaded
+[22Oct2021 20:44:35.887] [Worker-Main-12/INFO] [slimeknights.tconstruct.library.materials.stats.MaterialStatsManager/]: 75 stats loaded for 25 materials
+[22Oct2021 20:44:40.699] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.16.5
+[22Oct2021 20:44:40.699] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[22Oct2021 20:44:40.700] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[22Oct2021 20:44:40.700] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[22Oct2021 20:44:40.751] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:4500
+[22Oct2021 20:44:40.755] [Server thread/INFO] [net.minecraft.network.NetworkSystem/]: Using default channel type
+[22Oct2021 20:44:41.138] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[22Oct2021 20:44:41.196] [Server thread/WARN] [mixin/]: Method overwrite conflict for getWorld in hyperbox.mixins.json:ChunkManagerMixin, previously written by com.qouteall.immersive_portals.mixin.common.chunk_sync.MixinThreadedAnvilChunkStorage_C. Skipping method.
+[22Oct2021 20:44:41.336] [Server thread/INFO] [Portal/]: Successfully read IP's dimension id record
+[22Oct2021 20:44:41.336] [Server thread/INFO] [Portal/]: Start Completing Dimension Id Record
+[22Oct2021 20:44:41.338] [Server thread/INFO] [Portal/]: Before:
+minecraft:overworld -> 0
+immersive_portals:alternate1 -> 2
+immersive_portals:alternate2 -> 3
+mining_dimension:mining -> 7
+twilightforest:twilightforest -> 10
+pure_desert_dimension:desert -> 8
+twilightforest:skylight_forest -> 9
+minecraft:the_nether -> -1
+immersive_portals:alternate3 -> 4
+immersive_portals:alternate4 -> 5
+minecraft:the_end -> 1
+immersive_portals:alternate5 -> 6
+[22Oct2021 20:44:41.339] [Server thread/INFO] [Portal/]: Server Loaded Dimensions:
+immersive_portals:alternate1
+immersive_portals:alternate2
+immersive_portals:alternate3
+immersive_portals:alternate4
+immersive_portals:alternate5
+minecraft:overworld
+minecraft:the_end
+minecraft:the_nether
+mining_dimension:mining
+pure_desert_dimension:desert
+twilightforest:skylight_forest
+twilightforest:twilightforest
+
+[22Oct2021 20:44:41.339] [Server thread/INFO] [Portal/]: After:
+minecraft:overworld -> 0
+immersive_portals:alternate1 -> 2
+immersive_portals:alternate2 -> 3
+mining_dimension:mining -> 7
+twilightforest:twilightforest -> 10
+pure_desert_dimension:desert -> 8
+twilightforest:skylight_forest -> 9
+minecraft:the_nether -> -1
+immersive_portals:alternate3 -> 4
+immersive_portals:alternate4 -> 5
+minecraft:the_end -> 1
+immersive_portals:alternate5 -> 6
+[22Oct2021 20:44:41.341] [Server thread/INFO] [Portal/]: Dimension Id Info Saved to File
+[22Oct2021 20:44:41.346] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[22Oct2021 20:44:41.957] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[22Oct2021 20:44:41.957] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[22Oct2021 20:44:42.285] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Time elapsed: 939 ms
+[22Oct2021 20:44:42.287] [Server thread/INFO] [Portal/]: Loading custom portal gen
+[22Oct2021 20:44:42.305] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (1.235s)! For help, type "help"
+[22Oct2021 20:44:42.358] [Server thread/INFO] [com.haoict.tiab.Tiab/]: HELLO from server starting
+[22Oct2021 20:44:42.443] [Server thread/INFO] [com.resourcefulbees.resourcefulbees.ResourcefulBees/]: Validating Mutations...
+[22Oct2021 20:44:43.212] [User Authenticator #1/INFO] [net.minecraft.network.login.ServerLoginNetHandler/]: UUID of player Rage0146 is 0150645d-488d-46b6-8761-e55a16a10962
+[22Oct2021 20:44:45.507] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3006ms or 60 ticks behind
+[22Oct2021 20:44:48.533] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.advancements.PlayerAdvancements@5221abb7
+[22Oct2021 20:44:48.550] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: Rage0146[/70.68.6.215:62407] logged in with entity id 199 at (44.5, 69.0, -262.5)
+[22Oct2021 20:44:48.575] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Rage0146 joined the game
+[22Oct2021 20:46:11.100] [User Authenticator #2/INFO] [net.minecraft.network.login.ServerLoginNetHandler/]: UUID of player DrJavatar is 69683f09-5f0c-447a-b22f-3c0374d7366b
+[22Oct2021 20:46:14.822] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.advancements.PlayerAdvancements@43fa30d3
+[22Oct2021 20:46:14.829] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: DrJavatar[/50.67.64.243:61100] logged in with entity id 328 at (51.989268639239924, 73.0, -252.90856651573122)
+[22Oct2021 20:46:14.831] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: DrJavatar joined the game
+[22Oct2021 20:52:07.067] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: That player does not exist
+[22Oct2021 20:52:12.464] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Made DrJavatar a server operator
+[22Oct2021 20:52:21.916] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [DrJavatar: Set the time to 1000]
+[22Oct2021 20:52:35.283] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [DrJavatar: Set own game mode to Creative Mode]
+[22Oct2021 20:52:57.433] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [DrJavatar: Set own game mode to Survival Mode]
+[22Oct2021 20:53:06.110] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Rage0146 has made the advancement [Stone Age]
+[22Oct2021 20:56:09.265] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: DrJavatar has made the advancement [Stone Age]
+[22Oct2021 21:02:29.277] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: DrJavatar has made the advancement [Sweet Dreams]
+[22Oct2021 21:04:09.603] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: DrJavatar has made the advancement [Monster Hunter]
+[22Oct2021 21:05:15.437] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Rage0146 has made the advancement [Monster Hunter]
+[22Oct2021 21:09:41.172] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [DrJavatar: Set the time to 1000]
+[22Oct2021 21:15:19.107] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: DrJavatar was blown up by Creeper
+[22Oct2021 21:15:24.546] [Server thread/INFO] [Portal/]: Chunk Tracking Graph Force Remove DrJavatar
+[22Oct2021 21:16:38.456] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: DrJavatar was shot by Skeleton
+[22Oct2021 21:16:39.622] [Server thread/INFO] [Portal/]: Chunk Tracking Graph Force Remove DrJavatar
+[22Oct2021 21:16:51.587] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [DrJavatar: Set own game mode to Creative Mode]
+[22Oct2021 21:17:50.662] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [DrJavatar: Teleported 2 entities to Rage0146]
+[22Oct2021 21:17:58.045] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [DrJavatar: Set own game mode to Survival Mode]
+[22Oct2021 21:24:17.310] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: DrJavatar has made the advancement [Meneglin Discovery]
+[22Oct2021 21:26:52.110] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Rage0146 has made the advancement [Meneglin Discovery]
+[22Oct2021 21:36:21.706] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Rage0146 lost connection: Disconnected
+[22Oct2021 21:36:21.706] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Rage0146 left the game
+[22Oct2021 21:38:51.992] [User Authenticator #3/INFO] [net.minecraft.network.login.ServerLoginNetHandler/]: UUID of player Rage0146 is 0150645d-488d-46b6-8761-e55a16a10962
+[22Oct2021 21:38:54.990] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.advancements.PlayerAdvancements@6e1400be
+[22Oct2021 21:38:54.998] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: Rage0146[/70.68.6.215:61147] logged in with entity id 11351 at (139.3824679168177, 72.0, -252.5688516368151)
+[22Oct2021 21:38:55.000] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Rage0146 joined the game
+[22Oct2021 21:40:46.103] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: DrJavatar has made the advancement [Getting an Upgrade]
+[22Oct2021 21:51:35.956] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: DrJavatar has made the advancement [Acquire Hardware]
+[22Oct2021 22:04:49.052] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: DrJavatar has made the advancement [Hot Stuff]
+[22Oct2021 22:05:35.007] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [DrJavatar: Set own game mode to Creative Mode]
+[22Oct2021 22:05:47.764] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [DrJavatar: Set own game mode to Survival Mode]
+[22Oct2021 22:08:08.904] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: DrJavatar has made the advancement [Let It Grow]
+[22Oct2021 22:08:08.904] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: DrJavatar has made the advancement [Now You're Thinking With Hoppers]
+[22Oct2021 22:47:46.705] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Rage0146 has made the advancement [Getting an Upgrade]
+[22Oct2021 22:47:47.906] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Rage0146 lost connection: Disconnected
+[22Oct2021 22:47:47.906] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Rage0146 left the game
+[22Oct2021 22:49:07.054] [User Authenticator #4/INFO] [net.minecraft.network.login.ServerLoginNetHandler/]: UUID of player Rage0146 is 0150645d-488d-46b6-8761-e55a16a10962
+[22Oct2021 22:49:10.118] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.advancements.PlayerAdvancements@790d444a
+[22Oct2021 22:49:10.123] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: Rage0146[/70.68.6.215:56193] logged in with entity id 25420 at (139.74439572182382, 72.0, -252.36278015058866)
+[22Oct2021 22:49:10.126] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Rage0146 joined the game
+[22Oct2021 23:00:14.605] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Rage0146 has made the advancement [Acquire Hardware]
+[22Oct2021 23:03:49.907] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Rage0146 lost connection: Disconnected
+[22Oct2021 23:03:49.907] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Rage0146 left the game
+[22Oct2021 23:04:35.756] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: DrJavatar lost connection: Disconnected
+[22Oct2021 23:04:35.756] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: DrJavatar left the game
+[22Oct2021 23:04:42.605] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Stopping the server
+[22Oct2021 23:04:42.651] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[22Oct2021 23:04:42.652] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[22Oct2021 23:04:42.652] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[22Oct2021 23:04:42.654] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerWorld minecraft:overworld world'/minecraft:overworld
+[22Oct2021 23:04:43.112] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[22Oct2021 23:04:43.112] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerWorld minecraft:the_nether world'/minecraft:the_nether
+[22Oct2021 23:04:43.114] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[22Oct2021 23:04:43.114] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerWorld minecraft:the_end world'/minecraft:the_end
+[22Oct2021 23:04:43.115] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[22Oct2021 23:04:43.115] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerWorld mining_dimension:mining world'/mining_dimension:mining
+[22Oct2021 23:04:43.116] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (mining): All chunks are saved
+[22Oct2021 23:04:43.116] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerWorld twilightforest:twilightforest world'/twilightforest:twilightforest
+[22Oct2021 23:04:43.116] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (twilightforest): All chunks are saved
+[22Oct2021 23:04:43.116] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerWorld pure_desert_dimension:desert world'/pure_desert_dimension:desert
+[22Oct2021 23:04:43.117] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (desert): All chunks are saved
+[22Oct2021 23:04:43.117] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerWorld twilightforest:skylight_forest world'/twilightforest:skylight_forest
+[22Oct2021 23:04:43.118] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (skylight_forest): All chunks are saved
+[22Oct2021 23:04:43.119] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerWorld immersive_portals:alternate1 world'/immersive_portals:alternate1
+[22Oct2021 23:04:43.120] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (alternate1): All chunks are saved
+[22Oct2021 23:04:43.120] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerWorld immersive_portals:alternate2 world'/immersive_portals:alternate2
+[22Oct2021 23:04:43.121] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (alternate2): All chunks are saved
+[22Oct2021 23:04:43.121] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerWorld immersive_portals:alternate3 world'/immersive_portals:alternate3
+[22Oct2021 23:04:43.122] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (alternate3): All chunks are saved
+[22Oct2021 23:04:43.122] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerWorld immersive_portals:alternate4 world'/immersive_portals:alternate4
+[22Oct2021 23:04:43.122] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (alternate4): All chunks are saved
+[22Oct2021 23:04:43.122] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerWorld immersive_portals:alternate5 world'/immersive_portals:alternate5
+[22Oct2021 23:04:43.123] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (alternate5): All chunks are saved
+[22Oct2021 23:04:43.150] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[22Oct2021 23:04:43.175] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[22Oct2021 23:04:43.175] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[22Oct2021 23:04:43.175] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (mining): All chunks are saved
+[22Oct2021 23:04:43.176] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (twilightforest): All chunks are saved
+[22Oct2021 23:04:43.176] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (desert): All chunks are saved
+[22Oct2021 23:04:43.176] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (skylight_forest): All chunks are saved
+[22Oct2021 23:04:43.177] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (alternate1): All chunks are saved
+[22Oct2021 23:04:43.178] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (alternate2): All chunks are saved
+[22Oct2021 23:04:43.179] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (alternate3): All chunks are saved
+[22Oct2021 23:04:43.179] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (alternate4): All chunks are saved
+[22Oct2021 23:04:43.180] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (alternate5): All chunks are saved

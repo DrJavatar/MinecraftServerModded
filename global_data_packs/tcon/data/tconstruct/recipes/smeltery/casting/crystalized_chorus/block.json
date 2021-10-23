@@ -1,0 +1,9 @@
+{
+  "type": "tconstruct:casting_basin",
+  "fluid": {
+    "name": "integrateddynamics:liquid_chorus",
+    "amount": 1000
+  },
+  "result": "integrateddynamics:crystalized_chorus_block",
+  "cooling_time": 150
+}

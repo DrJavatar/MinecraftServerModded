@@ -1,0 +1,13 @@
+{
+  "type": "tconstruct:casting_basin",
+  "cast": {
+    "tag": "forge:glass"
+  },
+  "cast_consumed": true,
+  "fluid": {
+    "name": "integrateddynamics:menril_resin",
+    "amount": 500
+  },
+  "result": "integratedterminals:menril_glass",
+  "cooling_time": 55
+}

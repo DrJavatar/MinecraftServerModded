@@ -1,0 +1,12 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient": {
+    "item": "integrateddynamics:menril_log"
+  },
+  "result": {
+    "fluid": "integrateddynamics:menril_resin",
+    "amount": 1000
+  },
+  "temperature": 450,
+  "time": 48
+}

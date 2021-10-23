@@ -1,0 +1,17 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    "   ",
+    "XXX",
+    "   "
+  ],
+  "key": {
+    "X": {
+      "item": "excompressum:wood_chippings"
+    }
+  },
+  "result": {
+    "item": "minecraft:paper",
+    "count": 3
+  }
+}

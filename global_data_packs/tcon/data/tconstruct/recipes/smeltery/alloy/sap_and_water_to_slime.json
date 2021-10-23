@@ -1,0 +1,18 @@
+{
+  "type": "tconstruct:alloy",
+  "inputs": [
+    {
+      "name": "minecraft:water",
+      "amount": 100
+    },
+    {
+      "name": "thermal:resin",
+      "amount": 100
+    }
+  ],
+  "result": {
+    "fluid": "tconstruct:earth_slime",
+    "amount": 100
+  },
+  "temperature": 750
+}

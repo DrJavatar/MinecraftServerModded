@@ -1,0 +1,12 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient": {
+    "item": "minecraft:popped_chorus_fruit"
+  },
+  "result": {
+    "fluid": "integrateddynamics:liquid_chorus",
+    "amount": 250
+  },
+  "temperature": 1000,
+  "time": 40
+}
