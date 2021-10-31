@@ -143,6 +143,12 @@
     },
     "done": true
   },
+  "tconstruct:recipes/tconstruct/general/tables/tinkers_anvil": {
+    "criteria": {
+      "has_item": "2021-10-30 23:09:29 -0700"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/wooden_shovel": {
     "criteria": {
       "has_stick": "2021-10-22 20:46:53 -0700"
@@ -182,6 +188,12 @@
   "minecraft:recipes/misc/flower_banner_pattern": {
     "criteria": {
       "has_oxeye_daisy": "2021-10-22 21:35:38 -0700"
+    },
+    "done": true
+  },
+  "tconstruct:recipes/tconstruct/gadgets/gadgets/foods/sky_slime_drop_campfire": {
+    "criteria": {
+      "has_item": "2021-10-30 23:08:24 -0700"
     },
     "done": true
   },
@@ -275,9 +287,21 @@
     },
     "done": true
   },
+  "tconstruct:recipes/tconstruct/general/tables/scorched_anvil": {
+    "criteria": {
+      "has_item": "2021-10-30 23:09:29 -0700"
+    },
+    "done": true
+  },
   "exnihilosequentia:recipes/exnihilosequentia/ens_ingot_copper": {
     "criteria": {
       "has_chunk": "2021-10-24 22:24:05 -0700"
+    },
+    "done": true
+  },
+  "ironchest:recipes/ironchest/chests/diamond_obsidian_chest": {
+    "criteria": {
+      "has_obsidian": "2021-10-31 00:40:08 -0700"
     },
     "done": true
   },
@@ -356,6 +380,12 @@
   "minecraft:recipes/decorations/magenta_bed_from_white_bed": {
     "criteria": {
       "has_bed": "2021-10-22 21:00:35 -0700"
+    },
+    "done": true
+  },
+  "ironchest:recipes/ironchest/upgrades/copper_to_silver_chest_upgrade": {
+    "criteria": {
+      "has_item": "2021-10-30 22:58:25 -0700"
     },
     "done": true
   },
@@ -473,6 +503,12 @@
     },
     "done": true
   },
+  "tconstruct:world/slime_collector": {
+    "criteria": {
+      "sky": "2021-10-30 23:08:24 -0700"
+    },
+    "done": false
+  },
   "exnihilosequentia:recipes/exnihilosequentia/ens_hammer_stone": {
     "criteria": {
       "has_stick": "2021-10-22 20:46:53 -0700"
@@ -518,6 +554,12 @@
   "exnihilosequentia:recipes/exnihilosequentia/ens_crook_wood": {
     "criteria": {
       "has_pebble": "2021-10-22 20:46:53 -0700"
+    },
+    "done": true
+  },
+  "tconstruct:recipes/tconstruct/general/common/tinkers_gadgetry": {
+    "criteria": {
+      "has_item": "2021-10-30 23:08:24 -0700"
     },
     "done": true
   },
@@ -655,6 +697,13 @@
     },
     "done": true
   },
+  "tconstruct:tools/tool_smith": {
+    "criteria": {
+      "sword": "2021-10-31 01:20:14 -0700",
+      "pickaxe": "2021-10-31 00:49:45 -0700"
+    },
+    "done": false
+  },
   "minecraft:recipes/decorations/oak_fence": {
     "criteria": {
       "has_planks": "2021-10-22 20:48:02 -0700"
@@ -664,6 +713,12 @@
   "minecraft:recipes/misc/gold_ingot_from_gold_block": {
     "criteria": {
       "has_gold_block": "2021-10-24 01:14:38 -0700"
+    },
+    "done": true
+  },
+  "tconstruct:recipes/tconstruct/general/common/materials/copper_ingot_from_block": {
+    "criteria": {
+      "has_item": "2021-10-30 22:58:27 -0700"
     },
     "done": true
   },
@@ -709,6 +764,12 @@
     },
     "done": true
   },
+  "tconstruct:recipes/tconstruct/general/common/materials/copper_block_from_ingots": {
+    "criteria": {
+      "has_item": "2021-10-30 22:58:25 -0700"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/black_wool": {
     "criteria": {
       "has_white_wool": "2021-10-22 21:00:23 -0700"
@@ -724,6 +785,12 @@
   "minecraft:recipes/brewing/glass_bottle": {
     "criteria": {
       "has_glass": "2021-10-22 22:26:21 -0700"
+    },
+    "done": true
+  },
+  "tconstruct:recipes/tconstruct/gadgets/gadgets/slimeboots/sky": {
+    "criteria": {
+      "has_item": "2021-10-30 23:08:24 -0700"
     },
     "done": true
   },
@@ -769,6 +836,12 @@
     },
     "done": true
   },
+  "tconstruct:recipes/tconstruct/smeltery/smeltery/copper_can": {
+    "criteria": {
+      "has_item": "2021-10-30 22:58:25 -0700"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/yellow_dye_from_dandelion": {
     "criteria": {
       "has_yellow_flower": "2021-10-22 21:35:38 -0700"
@@ -808,6 +881,12 @@
   "minecraft:recipes/building_blocks/gray_concrete_powder": {
     "criteria": {
       "has_sand": "2021-10-22 21:06:52 -0700"
+    },
+    "done": true
+  },
+  "tconstruct:recipes/tconstruct/general/common/materials/slimesteel_ingot_from_block": {
+    "criteria": {
+      "has_item": "2021-10-30 23:09:29 -0700"
     },
     "done": true
   },
@@ -928,6 +1007,12 @@
   "minecraft:recipes/building_blocks/polished_diorite_from_diorite_stonecutting": {
     "criteria": {
       "has_diorite": "2021-10-22 22:29:58 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/ens_crying_obsidian": {
+    "criteria": {
+      "has_obsidian": "2021-10-31 00:40:08 -0700"
     },
     "done": true
   },
@@ -1094,6 +1179,12 @@
     },
     "done": true
   },
+  "tconstruct:tools/tinker_tool": {
+    "criteria": {
+      "crafted_tool": "2021-10-31 00:49:45 -0700"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/lapis_block": {
     "criteria": {
       "has_lapis": "2021-10-24 01:06:34 -0700"
@@ -1118,6 +1209,14 @@
     },
     "done": true
   },
+  "tconstruct:tools/material_master": {
+    "criteria": {
+      "slimesteel": "2021-10-31 00:49:45 -0700",
+      "pig_iron": "2021-10-31 00:49:45 -0700",
+      "iron": "2021-10-31 00:49:45 -0700"
+    },
+    "done": false
+  },
   "exnihilosequentia:recipes/exnihilosequentia/ens_chunk_copper": {
     "criteria": {
       "has_piece": "2021-10-24 01:06:44 -0700"
@@ -1130,9 +1229,22 @@
     },
     "done": true
   },
+  "minecraft:nether/explore_nether": {
+    "criteria": {
+      "minecraft:crimson_forest": "2021-10-31 00:25:50 -0700",
+      "minecraft:soul_sand_valley": "2021-10-31 00:25:51 -0700"
+    },
+    "done": false
+  },
   "minecraft:recipes/building_blocks/polished_diorite": {
     "criteria": {
       "has_stone": "2021-10-22 22:29:58 -0700"
+    },
+    "done": true
+  },
+  "tconstruct:recipes/redstone/common/slime/sticky_piston": {
+    "criteria": {
+      "has_slime_ball": "2021-10-30 23:08:24 -0700"
     },
     "done": true
   },
@@ -1214,6 +1326,12 @@
     },
     "done": true
   },
+  "tconstruct:tools/modified": {
+    "criteria": {
+      "crafted_tool": "2021-10-31 00:49:45 -0700"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/yellow_terracotta": {
     "criteria": {
       "has_terracotta": "2021-10-22 22:07:05 -0700"
@@ -1229,6 +1347,12 @@
   "exnihilosequentia:recipes/exnihilosequentia/ens_mesh_flint": {
     "criteria": {
       "has_mesh": "2021-10-22 22:13:02 -0700"
+    },
+    "done": true
+  },
+  "ironchest:recipes/ironchest/chests/vanilla_copper_chest": {
+    "criteria": {
+      "has_item": "2021-10-30 22:58:25 -0700"
     },
     "done": true
   },
@@ -1283,6 +1407,12 @@
   "minecraft:recipes/building_blocks/polished_andesite_stairs_from_andesite_stonecutting": {
     "criteria": {
       "has_andesite": "2021-10-24 00:24:41 -0700"
+    },
+    "done": true
+  },
+  "minecraft:nether/root": {
+    "criteria": {
+      "entered_nether": "2021-10-31 00:25:50 -0700"
     },
     "done": true
   },
@@ -1400,6 +1530,12 @@
     },
     "done": true
   },
+  "tconstruct:smeltery/cast_collector": {
+    "criteria": {
+      "tool_binding": "2021-10-31 00:37:27 -0700"
+    },
+    "done": false
+  },
   "minecraft:recipes/building_blocks/gray_wool": {
     "criteria": {
       "has_white_wool": "2021-10-22 21:00:23 -0700"
@@ -1457,6 +1593,12 @@
   "minecraft:recipes/misc/bucket": {
     "criteria": {
       "has_iron_ingot": "2021-10-22 21:51:35 -0700"
+    },
+    "done": true
+  },
+  "tconstruct:recipes/tools/common/slime/lead": {
+    "criteria": {
+      "has_slime_ball": "2021-10-30 23:08:24 -0700"
     },
     "done": true
   },
@@ -1712,6 +1854,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/enchanting_table": {
+    "criteria": {
+      "has_obsidian": "2021-10-31 00:40:08 -0700"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/polished_andesite_from_andesite_stonecutting": {
     "criteria": {
       "has_andesite": "2021-10-24 00:24:41 -0700"
@@ -1808,6 +1956,12 @@
     },
     "done": true
   },
+  "minecraft:story/enter_the_nether": {
+    "criteria": {
+      "entered_nether": "2021-10-31 00:25:50 -0700"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/green_bed_from_white_bed": {
     "criteria": {
       "has_bed": "2021-10-22 21:00:35 -0700"
@@ -1845,6 +1999,12 @@
       "seared_basin": "2021-10-24 00:41:00 -0700",
       "seared_faucet": "2021-10-24 00:41:03 -0700",
       "seared_melter": "2021-10-24 00:40:56 -0700"
+    },
+    "done": true
+  },
+  "tconstruct:recipes/tconstruct/gadgets/gadgets/slimesling/sky": {
+    "criteria": {
+      "has_item": "2021-10-30 23:08:24 -0700"
     },
     "done": true
   },
@@ -1989,6 +2149,12 @@
   "exnihilosequentia:recipes/exnihilosequentia/ens_mesh_diamond": {
     "criteria": {
       "has_mesh": "2021-10-24 23:45:51 -0700"
+    },
+    "done": true
+  },
+  "tconstruct:smeltery/structure": {
+    "criteria": {
+      "open_smeltery": "2021-10-30 22:53:56 -0700"
     },
     "done": true
   },
@@ -2166,6 +2332,12 @@
     },
     "done": true
   },
+  "tconstruct:smeltery/gold_casting": {
+    "criteria": {
+      "crafted_cast": "2021-10-31 00:37:27 -0700"
+    },
+    "done": true
+  },
   "tconstruct:recipes/tconstruct/smeltery/smeltery/seared/fuel_tank": {
     "criteria": {
       "has_item": "2021-10-24 00:03:28 -0700"
@@ -2232,6 +2404,12 @@
     },
     "done": true
   },
+  "minecraft:story/form_obsidian": {
+    "criteria": {
+      "obsidian": "2021-10-31 00:40:08 -0700"
+    },
+    "done": true
+  },
   "ironchest:recipes/ironchest/upgrades/iron_to_gold_chest_upgrade": {
     "criteria": {
       "has_iron_ingot": "2021-10-22 21:51:35 -0700"
@@ -2274,6 +2452,12 @@
     },
     "done": true
   },
+  "tconstruct:recipes/tconstruct/general/common/materials/copper_nugget_from_ingot": {
+    "criteria": {
+      "has_item": "2021-10-30 22:58:25 -0700"
+    },
+    "done": true
+  },
   "tconstruct:recipes/tconstruct/smeltery/smeltery/seared/lantern": {
     "criteria": {
       "has_item": "2021-10-24 00:03:28 -0700"
@@ -2298,6 +2482,12 @@
     },
     "done": true
   },
+  "tconstruct:recipes/tconstruct/world/common/slime/sky/congealed": {
+    "criteria": {
+      "has_item": "2021-10-30 23:08:24 -0700"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/iron_door": {
     "criteria": {
       "has_iron_ingot": "2021-10-22 21:51:35 -0700"
@@ -2319,6 +2509,12 @@
   "minecraft:recipes/redstone/oak_door": {
     "criteria": {
       "has_planks": "2021-10-22 20:48:02 -0700"
+    },
+    "done": true
+  },
+  "tconstruct:recipes/tconstruct/world/common/slime/sky/slimeblock": {
+    "criteria": {
+      "has_item": "2021-10-30 23:08:24 -0700"
     },
     "done": true
   },
@@ -2451,6 +2647,12 @@
   "minecraft:recipes/misc/ens_ingot_iron_blast": {
     "criteria": {
       "has_chunk": "2021-10-24 01:10:32 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tconstruct/general/tools/modifiers/slime_crystal/sky": {
+    "criteria": {
+      "has_item": "2021-10-30 23:08:24 -0700"
     },
     "done": true
   },

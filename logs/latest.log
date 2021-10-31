@@ -1,55 +1,64 @@
-[25Oct.2021 00:00:51.171] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <cccarrow> 64
-[25Oct.2021 00:11:52.795] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [DrJavatar: Set own game mode to Creative Mode]
-[25Oct.2021 00:12:04.194] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [DrJavatar: Set own game mode to Survival Mode]
-[25Oct.2021 00:13:55.293] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: cccarrow has reached the goal [Skyslime Island]
-[25Oct.2021 00:17:45.971] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: cccarrow fell from a high place
-[25Oct.2021 00:18:07.292] [Server thread/INFO] [Portal/]: Chunk Tracking Graph Force Remove cccarrow
-[25Oct.2021 00:18:48.959] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [DrJavatar: Teleported cccarrow to 714.116, 64.0, 227.537]
-[25Oct.2021 00:23:35.226] [Server thread/WARN] [net.minecraft.server.management.PlayerInteractionManager/]: Mismatch in destroy block pos: BlockPos{x=28, y=75, z=-131} BlockPos{x=44, y=68, z=-244}
-[25Oct.2021 00:28:12.488] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Rage0146 has made the advancement [The Parrots and the Bats]
-[25Oct.2021 00:30:06.235] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: cccarrow lost connection: Disconnected
-[25Oct.2021 00:30:06.236] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: cccarrow left the game
-[25Oct.2021 00:30:17.437] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: DrJavatar lost connection: Disconnected
-[25Oct.2021 00:30:17.437] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: DrJavatar left the game
-[25Oct.2021 00:30:20.085] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Rage0146 lost connection: Disconnected
-[25Oct.2021 00:30:20.085] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Rage0146 left the game
-[25Oct.2021 00:30:47.929] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Stopping the server
-[25Oct.2021 00:30:47.981] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[25Oct.2021 00:30:47.982] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[25Oct.2021 00:30:47.983] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
-[25Oct.2021 00:30:47.983] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerWorld minecraft:overworld world'/minecraft:overworld
-[25Oct.2021 00:30:48.528] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[25Oct.2021 00:30:48.528] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerWorld minecraft:the_nether world'/minecraft:the_nether
-[25Oct.2021 00:30:48.530] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[25Oct.2021 00:30:48.530] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerWorld minecraft:the_end world'/minecraft:the_end
-[25Oct.2021 00:30:48.531] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[25Oct.2021 00:30:48.531] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerWorld mining_dimension:mining world'/mining_dimension:mining
-[25Oct.2021 00:30:48.532] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (mining): All chunks are saved
-[25Oct.2021 00:30:48.532] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerWorld twilightforest:twilightforest world'/twilightforest:twilightforest
-[25Oct.2021 00:30:48.533] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (twilightforest): All chunks are saved
-[25Oct.2021 00:30:48.533] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerWorld pure_desert_dimension:desert world'/pure_desert_dimension:desert
-[25Oct.2021 00:30:48.533] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (desert): All chunks are saved
-[25Oct.2021 00:30:48.533] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerWorld twilightforest:skylight_forest world'/twilightforest:skylight_forest
-[25Oct.2021 00:30:48.534] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (skylight_forest): All chunks are saved
-[25Oct.2021 00:30:48.534] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerWorld immersive_portals:alternate1 world'/immersive_portals:alternate1
-[25Oct.2021 00:30:48.535] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (alternate1): All chunks are saved
-[25Oct.2021 00:30:48.535] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerWorld immersive_portals:alternate2 world'/immersive_portals:alternate2
-[25Oct.2021 00:30:48.535] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (alternate2): All chunks are saved
-[25Oct.2021 00:30:48.536] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerWorld immersive_portals:alternate3 world'/immersive_portals:alternate3
-[25Oct.2021 00:30:48.536] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (alternate3): All chunks are saved
-[25Oct.2021 00:30:48.536] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerWorld immersive_portals:alternate4 world'/immersive_portals:alternate4
-[25Oct.2021 00:30:48.537] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (alternate4): All chunks are saved
-[25Oct.2021 00:30:48.537] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerWorld immersive_portals:alternate5 world'/immersive_portals:alternate5
-[25Oct.2021 00:30:48.537] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (alternate5): All chunks are saved
-[25Oct.2021 00:30:48.557] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[25Oct.2021 00:30:48.622] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[25Oct.2021 00:30:48.623] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[25Oct.2021 00:30:48.623] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (mining): All chunks are saved
-[25Oct.2021 00:30:48.623] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (twilightforest): All chunks are saved
-[25Oct.2021 00:30:48.624] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (desert): All chunks are saved
-[25Oct.2021 00:30:48.624] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (skylight_forest): All chunks are saved
-[25Oct.2021 00:30:48.624] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (alternate1): All chunks are saved
-[25Oct.2021 00:30:48.625] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (alternate2): All chunks are saved
-[25Oct.2021 00:30:48.625] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (alternate3): All chunks are saved
-[25Oct.2021 00:30:48.625] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (alternate4): All chunks are saved
-[25Oct.2021 00:30:48.625] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (alternate5): All chunks are saved
+[31Oct.2021 00:25:42.764] [Server thread/INFO] [Portal/]: Portal Generation Attempted minecraft:overworld 115 63 -294
+[31Oct.2021 00:25:43.891] [Server thread/INFO] [Portal/]: Cannot Find Portal Placement on Ground with 3 Spacing
+[31Oct.2021 00:25:43.894] [Server thread/INFO] [Portal/]: Generated Portal On Ground
+[31Oct.2021 00:25:50.812] [Server thread/INFO] [Portal/]: DrJavatar :: (minecraft:overworld 116.07954426652323 63.0 -293.4412202141121)->(minecraft:the_nether 16 62 -34)
+[31Oct.2021 00:25:50.823] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: DrJavatar has made the advancement [We Need to Go Deeper]
+[31Oct.2021 00:25:55.629] [Server thread/INFO] [Portal/]: Rage0146 :: (minecraft:overworld 115.97043261737782 63.0 -293.3336635907764)->(minecraft:the_nether 15 62 -34)
+[31Oct.2021 00:25:55.630] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Rage0146 has made the advancement [We Need to Go Deeper]
+[31Oct.2021 00:25:57.629] [Server thread/INFO] [Portal/]: DrJavatar :: (minecraft:the_nether 15.58067103304775 62.00002442408822 -34.478340432316045)->(minecraft:overworld 115 63 -293)
+[31Oct.2021 00:26:05.035] [Server thread/INFO] [Portal/]: DrJavatar :: (minecraft:overworld 116.14696839718894 63.00006040245005 -293.6952263708496)->(minecraft:the_nether 16 62 -34)
+[31Oct.2021 00:26:13.672] [Server thread/INFO] [Portal/]: DrJavatar :: (minecraft:the_nether 15.901257143804305 62.0 -34.774532677198735)->(minecraft:overworld 115 63 -293)
+[31Oct.2021 00:27:01.173] [Server thread/INFO] [Portal/]: Rage0146 :: (minecraft:the_nether 16.291370625407772 62.0 -34.703764607459746)->(minecraft:overworld 116 63 -293)
+[31Oct.2021 00:31:32.176] [Server thread/INFO] [Portal/]: DrJavatar :: (minecraft:overworld 116.12644551284819 63.0 -293.4262242269422)->(minecraft:the_nether 16 62 -34)
+[31Oct.2021 00:31:37.587] [Server thread/INFO] [Portal/]: DrJavatar :: (minecraft:the_nether 16.09413131336092 62.0 -34.60083807481141)->(minecraft:overworld 116 63 -293)
+[31Oct.2021 00:40:08.968] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: DrJavatar has made the advancement [Ice Bucket Challenge]
+[31Oct.2021 00:46:32.768] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Rage0146 lost connection: Disconnected
+[31Oct.2021 00:46:32.769] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Rage0146 left the game
+[31Oct.2021 00:47:26.417] [User Authenticator #3/INFO] [net.minecraft.network.login.ServerLoginNetHandler/]: UUID of player Rage0146 is 0150645d-488d-46b6-8761-e55a16a10962
+[31Oct.2021 00:47:29.757] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.advancements.PlayerAdvancements@def4ebe
+[31Oct.2021 00:47:29.824] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: Rage0146[/70.68.6.215:65042] logged in with entity id 32979 at (137.5850076853642, 72.0, -253.1481932169262)
+[31Oct.2021 00:47:29.879] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Rage0146 joined the game
+[31Oct.2021 01:30:32.619] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: DrJavatar lost connection: Disconnected
+[31Oct.2021 01:30:32.621] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: DrJavatar left the game
+[31Oct.2021 01:33:21.280] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Rage0146 lost connection: Disconnected
+[31Oct.2021 01:33:21.281] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Rage0146 left the game
+[31Oct.2021 01:46:36.018] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Stopping the server
+[31Oct.2021 01:46:36.060] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[31Oct.2021 01:46:36.062] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[31Oct.2021 01:46:36.064] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[31Oct.2021 01:46:36.064] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerWorld minecraft:overworld world'/minecraft:overworld
+[31Oct.2021 01:46:36.213] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[31Oct.2021 01:46:36.213] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerWorld minecraft:the_nether world'/minecraft:the_nether
+[31Oct.2021 01:46:36.217] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[31Oct.2021 01:46:36.218] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerWorld minecraft:the_end world'/minecraft:the_end
+[31Oct.2021 01:46:36.218] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[31Oct.2021 01:46:36.219] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerWorld mining_dimension:mining world'/mining_dimension:mining
+[31Oct.2021 01:46:36.219] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (mining): All chunks are saved
+[31Oct.2021 01:46:36.219] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerWorld twilightforest:twilightforest world'/twilightforest:twilightforest
+[31Oct.2021 01:46:36.220] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (twilightforest): All chunks are saved
+[31Oct.2021 01:46:36.220] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerWorld pure_desert_dimension:desert world'/pure_desert_dimension:desert
+[31Oct.2021 01:46:36.221] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (desert): All chunks are saved
+[31Oct.2021 01:46:36.221] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerWorld twilightforest:skylight_forest world'/twilightforest:skylight_forest
+[31Oct.2021 01:46:36.221] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (skylight_forest): All chunks are saved
+[31Oct.2021 01:46:36.221] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerWorld immersive_portals:alternate1 world'/immersive_portals:alternate1
+[31Oct.2021 01:46:36.222] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (alternate1): All chunks are saved
+[31Oct.2021 01:46:36.222] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerWorld immersive_portals:alternate2 world'/immersive_portals:alternate2
+[31Oct.2021 01:46:36.222] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (alternate2): All chunks are saved
+[31Oct.2021 01:46:36.223] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerWorld immersive_portals:alternate3 world'/immersive_portals:alternate3
+[31Oct.2021 01:46:36.224] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (alternate3): All chunks are saved
+[31Oct.2021 01:46:36.225] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerWorld immersive_portals:alternate4 world'/immersive_portals:alternate4
+[31Oct.2021 01:46:36.225] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (alternate4): All chunks are saved
+[31Oct.2021 01:46:36.225] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerWorld immersive_portals:alternate5 world'/immersive_portals:alternate5
+[31Oct.2021 01:46:36.226] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (alternate5): All chunks are saved
+[31Oct.2021 01:46:36.245] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[31Oct.2021 01:46:36.270] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[31Oct.2021 01:46:36.279] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[31Oct.2021 01:46:36.279] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (mining): All chunks are saved
+[31Oct.2021 01:46:36.279] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (twilightforest): All chunks are saved
+[31Oct.2021 01:46:36.280] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (desert): All chunks are saved
+[31Oct.2021 01:46:36.280] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (skylight_forest): All chunks are saved
+[31Oct.2021 01:46:36.280] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (alternate1): All chunks are saved
+[31Oct.2021 01:46:36.280] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (alternate2): All chunks are saved
+[31Oct.2021 01:46:36.281] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (alternate3): All chunks are saved
+[31Oct.2021 01:46:36.281] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (alternate4): All chunks are saved
+[31Oct.2021 01:46:36.281] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (alternate5): All chunks are saved
