@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "libvulpes:blocksteel"
+    }
+  ],
+  "result": {
+    "item": "libvulpes:ingotsteel",
+    "count": 9
+  }
+}

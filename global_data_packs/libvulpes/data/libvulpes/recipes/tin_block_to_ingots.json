@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "libvulpes:blocktin"
+    }
+  ],
+  "result": {
+    "item": "libvulpes:ingottin",
+    "count": 9
+  }
+}

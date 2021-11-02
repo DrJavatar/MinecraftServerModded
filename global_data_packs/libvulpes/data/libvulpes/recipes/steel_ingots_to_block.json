@@ -1,0 +1,17 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    "XXX",
+    "XXX",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "libvulpes:ingotsteel"
+    }
+  },
+  "result": {
+    "item": "libvulpes:blocksteel",
+    "count": 1
+  }
+}

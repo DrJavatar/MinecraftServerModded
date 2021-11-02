@@ -1,0 +1,17 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    "XXX",
+    "XXX",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "libvulpes:ingottin"
+    }
+  },
+  "result": {
+    "item": "libvulpes:blocktin",
+    "count": 1
+  }
+}
